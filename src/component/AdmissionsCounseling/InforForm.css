@@ -1,0 +1,88 @@
+.send-question{
+    width: 100%;
+    background: linear-gradient(to bottom, #d3ecfa, #8bcbf0);
+    display: flex;
+    margin-top: 70px;
+}
+
+.question-text{
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 30px 20px 50px 60px ;
+    
+}
+.custom-button {
+    background: linear-gradient(to bottom, #fcfeff, #f3faff);
+    color:  #0049FC;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 230px;
+    border: 0.5px solid rgb(10, 177, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 30px 20px 20px 0px
+}
+
+.chosen {
+    background: linear-gradient(to bottom, #6ecaff, #0073b6);;
+    color: #ffffff;
+}
+
+
+.form-container {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    /* To position the icon */
+    margin-top: 5px;
+}
+
+.input-icon {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+.name{
+    margin-bottom: 30px;
+    color: #273E74;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 8px 30px 8px 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    /* Move the text to the right to accommodate the icon */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-image: none !important;
+}
+
+.button-send-question {
+    background: linear-gradient(to bottom, #6ecaff, #0073b6);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+     margin: 0 auto;
+}

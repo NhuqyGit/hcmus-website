@@ -1,0 +1,79 @@
+
+.accordion-item {
+    width: 500px;
+    border: 0.5px solid #ebe7fa;
+    margin: 7px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-title {
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbfaff;
+    border-radius: 5px;
+}
+
+.accordion-body {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff
+}
+.arrow-icon {
+    transition: transform 0.3s ease-in-out;
+    margin-left: auto;
+    align-self: center;
+}
+
+/* Arrow icon rotation when accordion is open */
+.arrow-icon.open {
+    transform: rotate(180deg);
+}
+.image-frame {
+    width: auto;
+    margin-left: 100px;
+    padding: 20px 20px 25px 20px;
+    background: linear-gradient(to bottom, #47C0FF, #2FA6E9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.image {
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+.undergraduate{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.button-send{
+    width: fit-content;
+    margin-top: 20px;
+    color: #273E74;
+    font-family: Oxanium;
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+.icon-large{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.button-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
