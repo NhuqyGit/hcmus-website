@@ -119,41 +119,4 @@ function UndergraduateInfo() {
   );
 }
 
-// const [isDropdownOpen, setDropdownOpen] = useState(false);
-
-// const handleDropdownClick = () => {
-//   setDropdownOpen(!isDropdownOpen);
-// };
-// return (
-//   <div>
-//     <h1 style={{ textAlign: "center", color: "#273E74" }}>
-//       THÔNG TIN TUYỂN SINH ĐẠI HỌC
-//     </h1>
-//     <div style={{ textAlign: "center" }}>
-//       Lorem Ipsum is simply dummy text of the printing and typesetting
-//       industry. Lorem Ipsum has been the industry's standard dummy text ever
-//       since the 1500s, when an unknown printer took a galley of type and
-//       scrambled it to make a type specimen book.
-//     </div>
-
-//     <div className="dropdown-container">
-//       <div className="dropdown-header" onClick={handleDropdownClick}>
-//         <span>Khoa Công Nghệ Thông Tin</span>
-//         {isDropdownOpen ? <span>&#9650;</span> : <span>&#9660;</span>}
-//       </div>
-
-//       {isDropdownOpen && (
-//         <div className="dropdown-content">
-//           <p>
-//             Lorem Ipsum is simply dummy text of the printing and typesetting
-//             industry. Lorem Ipsum has been the industry's standard dummy text
-//             ever since the 1500s, when an unknown printer took a galley of
-//             type and scrambled it to make a type specimen book.
-//           </p>
-//         </div>
-//       )}
-//     </div>
-//   </div>
-// );
-
 export default UndergraduateInfo;
