@@ -1,0 +1,72 @@
+
+/* TOP */
+.top {
+  border-bottom: 3px solid #ccc;
+  border-top: 3px solid #ccc;
+  padding-bottom: 4rem;
+}
+
+.container {
+  padding: 1rem 6rem 0 6rem;
+}
+
+.container > .top > p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.container > .top > .top_sort > select {
+  width: 8rem;
+}
+
+
+/* CONTENT */
+.content {
+  padding: 1rem 6rem;
+}
+
+.content_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 3px solid #ccc;
+}
+
+.content_box > img {
+  width: 10rem;
+}
+
+/* BOTTOM */
+.bottom {
+  padding: 2rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom > .bottom_paginate  {
+  display: flex;
+}
+
+.bottom > .bottom_paginate > span {
+  display: block;
+  background-color: #eee;
+  margin: 0 2px;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.bottom > .bottom_paginate > span:nth-child(1) {
+  background-color: #888;
+}
+
+.bottom > .bottom_paginate > span:nth-child(2) {
+  border: 1px solid plum;
+  color: plum;
+}
+
+/* wrap-content */
+.wrap-content {
+  background-color: #faf6f6dc;
+}
