@@ -1,22 +1,133 @@
-import { useState } from 'react';
-import './Search.scss'
 
-function Search({isClick, onChangeState}) {
-    const [pos, setPos] = useState(0);
-    const [key, setKey] = useState("");
+import React, { useState } from 'react';
+import './SearchList.scss';
+import new3 from "../../assets/img/news-3.png";
+import new4 from "../../assets/img/news-4.png";
+import new5 from "../../assets/img/news-5.png";
 
-    return ( 
-        <div className="search-bar" style={{top: isClick ? 0 : '-100%'}}>
-            <div className="search-bar__container">
-                <div className='section-close'>
-                    <div className='btn-close' onClick={onChangeState}>
-                        <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.3679 15.0131L24.0919 7.33126C24.4622 6.9647 24.4622 6.37126 24.0919 6.00563C23.7226 5.63907 23.1226 5.63907 22.7532 6.00563L15.0357 13.6809L7.24693 5.89126C6.87756 5.52095 6.27756 5.52095 5.90818 5.89126C5.53881 6.26251 5.53881 6.86345 5.90818 7.23376L13.6913 15.0178L5.88006 22.7859C5.51068 23.1525 5.51068 23.7459 5.88006 24.1116C6.24943 24.4781 6.84943 24.4781 7.21881 24.1116L15.0235 16.35L22.7813 24.1088C23.1507 24.4791 23.7507 24.4791 24.1201 24.1088C24.4894 23.7375 24.4894 23.1366 24.1201 22.7663L16.3679 15.0131Z" fill="white"/>
-                        </svg>
-                    </div>
-                </div>
+function SearchList() {
+  const [pos, setPos] = useState(0);
+  const [key, setKey] = useState("");
 
-                <div className='section-searchBar'>
+
+  const queryParams = new URLSearchParams(location.search);
+  const searchQuery = queryParams.get('q');
+
+  const listSearch = [
+    {
+      title: (
+        <>
+          THÔNG BÁO <span >{searchQuery}</span> VALLET 2023 (Dành cho sinh viên đại học)
+        </>
+      ),
+      content: (
+        <p>
+          Trường Đại học Khoa học Tự nhiên thông báo danh sách dự kiến sinh viên các. Chương trình Đề án Khoa Công nghệ Thông tin được xét cấp, Chương trình Đề án Khoa Công nghệ Thông tin{' '}
+          <span >{searchQuery}</span>
+        </p>
+      ),
+      imgUrl: "https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+    },
+    {
+      title: (
+        <>
+          Thông báo kết quả dự kiến HBKK HK1/22-23 CTĐA Khoa Công nghệ Thông tin
+        </>
+      ),
+      content: (
+        <p>
+          Lễ trao <span >{searchQuery}</span> “Thắp sáng ước mơ” năm 2023 sẽ được diễn ra trong chương trình “Ngày hội Sinh viên và Doanh nghiệp - Năm 2023” vào ngày 04/6/2023 Chương trình Đề án Khoa Công nghệ Thông tin{' '}
+        </p>
+      ),
+      imgUrl: new3
+    },
+    {
+      title: (
+        <>
+          THÔNG BÁO <span >{searchQuery}</span> VALLET 2023 (Dành cho sinh viên đại học)
+        </>
+      ),
+      content: (
+        <p>
+          Trường Đại học Khoa học Tự nhiên thông báo danh sách dự kiến sinh viên các. Chương trình Đề án Khoa Công nghệ Thông tin được xét cấp, chương trình Đề án Khoa Công nghệ Thông tin, Chương trình Đề án Khoa Công nghệ Thông tin{' '}
+          <span >{searchQuery}</span>
+        </p>
+      ),
+      imgUrl: new4
+    },
+    {
+      title: (
+        <>
+          Thông báo kết quả dự kiến HBKK HK1/22-23 CTĐA Khoa Công nghệ Thông tin
+        </>
+      ),
+      content: (
+        <p>
+          Lễ trao <span >{searchQuery}</span> “Thắp sáng ước mơ” năm 2023 sẽ được diễn ra trong chương trình “Ngày hội Sinh viên và Doanh nghiệp - Năm 2023” vào ngày 04/6/2023{' '}
+        </p>
+      ),
+      imgUrl: "https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+    },
+    {
+      title: (
+        <>
+          THÔNG BÁO <span >{searchQuery}</span> VALLET 2023 (Dành cho sinh viên đại học)
+        </>
+      ),
+      content: (
+        <p>
+          Trường Đại học Khoa học Tự nhiên thông báo danh sách dự kiến sinh viên các. Chương trình Đề án Khoa Công nghệ Thông tin được xét cấp, Chương trình Đề án Khoa Công nghệ Thông tin{' '}
+          <span >{searchQuery}</span>
+        </p>
+      ),
+      imgUrl: new5
+    },
+    {
+      title: (
+        <>
+          Thông báo kết quả dự kiến HBKK HK1/22-23 CTĐA Khoa Công nghệ Thông tin
+        </>
+      ),
+      content: (
+        <p>
+          Lễ trao <span >{searchQuery}</span> “Thắp sáng ước mơ” năm 2023 sẽ được diễn ra trong chương trình “Ngày hội Sinh viên và Doanh nghiệp - Năm 2023” vào ngày 04/6/2023 Chương trình Đề án Khoa Công nghệ Thông tin{' '}
+        </p>
+      ),
+      imgUrl: "https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+    },
+    {
+      title: (
+        <>
+          THÔNG BÁO <span >{searchQuery}</span> VALLET 2023 (Dành cho sinh viên đại học)
+        </>
+      ),
+      content: (
+        <p>
+          Trường Đại học Khoa học Tự nhiên thông báo danh sách dự kiến sinh viên các. Chương trình Đề án Khoa Công nghệ Thông tin được xét cấp{' '}
+          <span >{searchQuery}</span>
+        </p>
+      ),
+      imgUrl: "https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+    }
+  ]
+
+  const mapSearch = listSearch.map((item)=>{
+    return (
+      <ContentBox
+        title={item.title}
+        content={item.content}
+        imgUrl={item.imgUrl}
+      />
+    )
+  })
+
+  return (
+    <div className="container">
+      <div className='bannerTitle'>
+        <h1>TÌM KIẾM</h1>
+      </div>
+
+      <div className='section-searchBar'>
                     <div className='searchBar-control'>
                         <div className={`control-item ${pos === 0 ? 'active' : '' }`} onClick={()=>setPos(0)}>
                             <div className="control-title">
@@ -100,12 +211,54 @@ function Search({isClick, onChangeState}) {
                             </svg>
                         </a>
                     </div>
-                </div>
+      </div>
+      <div className="top">
+        {/* <p>Có <div className='count'><span>8</span></div> kết quả được tìm thấy</p> */}
 
-            </div>
-
+        <div className="top_sort">
+          <span>Sắp xếp theo: </span>
+          <select name="" id="">
+            <option value="1">Mới nhất</option>
+            <option value="2">Mới nhì</option>
+            <option value="3">Mới ba</option>
+          </select>
         </div>
-    );
+      </div>
+
+      <div className="wrap-content">
+        <div className="content">
+
+          {mapSearch}
+
+          <div className="bottom">
+            <div className="bottom_paginate">
+              <span>&lt;</span>
+              <span>1</span>
+              {/* <span>2</span>
+              <span>...</span>
+              <span>9</span>
+              <span>10</span> */}
+              <span>&gt;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Search;
+function ContentBox(props) {
+  const { title, content, imgUrl } = props;
+
+  return (
+    <a className="content_box" href='/baiviet'>
+      <div className="content_box_top">
+        <h3>{title}</h3>
+        {content}
+      </div>
+      <img src={imgUrl} alt="" />
+    </a>
+  );
+}
+
+export default SearchList;

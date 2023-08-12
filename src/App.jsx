@@ -5,10 +5,13 @@ import './App.css';
 
 import Academics from './component/Academics/Academics';
 import Curriculum from './component/Academics/Curriculum';
+import AdmissionsCounseling from "./component/AdmissionsCounseling/AdmissionsCounseling";
+import NewsPage from './component/NewsPage/NewsPage';
+
 
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
-
+import SearchList from './component/SearchList/SearchList';
 function App() {
   const [isClickMenu, setClickMenu] = useState(false);
   // const [isClickSearch, setClickSearch] = useState(false);
@@ -23,6 +26,9 @@ function App() {
             <Route path="/daotao/dai-hoc" element={<Academics />} />
             
             <Route path="/daotao/cao-dang" element={<Curriculum />} />
+            <Route path="/tuyensinh" element={<AdmissionsCounseling />} />
+            <Route path="/timkiem" element={<SearchList />} />
+            <Route path="/baiviet" element={<NewsPage />} />
           </Routes>
       </div>
     </div>

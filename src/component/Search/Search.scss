@@ -159,13 +159,14 @@
                     }
                 }
 
-                button{
+                .search-btn{
                     padding: 19px 25px 19px 28px;
                     display: flex;
                     align-items: center;
                     background: #0F52A9;
                     border: none;
                     transition: .5s;
+                    margin-bottom: 10px;
                     span{
                         margin-right: 5px;
                         color: white;

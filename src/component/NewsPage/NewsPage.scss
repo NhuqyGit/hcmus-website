@@ -1,0 +1,147 @@
+// div {
+//   width: 100%;
+//   max-width: 1560px;
+// }
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container .main_content {
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container .main_content .news {
+  padding: 15px;
+  width: 70%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.icon {
+  margin-right: 15px;
+  cursor: pointer;
+  color: black;
+}
+
+.share_icon {
+  display: flex;
+  justify-items: end;
+}
+
+.img .image {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.beside_news {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tag {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  height: 140px;
+}
+
+.title_tag {
+  padding-left: 10px;
+}
+
+.title_tag::before {
+  content: "";
+  border: 4px solid #003a63;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.hot_news {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  height: 690px;
+  position: relative;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.thumnail {
+  width: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.thumnail .img {
+  display: block;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.thumnail .img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.list_news {
+  padding-top: 1px;
+}
+.one_news {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.descript {
+  color: black;
+  font-weight: 400;
+  height: 100px;
+  overflow: hidden;
+}
+.descript:hover {
+  color: blue;
+}
+
+.falcuty {
+  color: #3e3232;
+}
+.falcuty:hover {
+  color: blue;
+  transform: translateY(-10%);
+  transition: all 0.3s ease-in-out;
+}
+
+.fa_container {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 10px;
+}
+
+.more {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: 40px;
+  width: 200px;
+  background-color: #0c355c;
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.more:hover {
+  background-color: #003a63;
+}
