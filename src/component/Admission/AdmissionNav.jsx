@@ -71,13 +71,13 @@ function AdmissionNav() {
     }
 
     const sNav = isOpen ? (
-        <div>
+        <>
           {items[pos].subNav.map((item) => (
-            <div key={item.title}>
+            <div className="SSubNav-item" key={item.title}>
               <a href={item.link}>{item.title}</a>
             </div>
           ))}
-        </div>
+        </>
       ) : null;
     return ( 
         <>

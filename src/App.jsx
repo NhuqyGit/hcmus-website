@@ -1,25 +1,30 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import { Link, Routes, Route, Outlet } from "react-router-dom";
+import { MyContext } from './MyContext';
 import './App.css';
-import Menu from './component/Menu/Menu';
+
 import Academics from './component/Academics/Academics';
 import Curriculum from './component/Academics/Curriculum';
 
+import Header from './component/Header/Header';
+import Home from './component/Home/Home';
 
 function App() {
-  const [isClick, setIsClick] = useState(false)
+  const [isClickMenu, setClickMenu] = useState(false);
+  // const [isClickSearch, setClickSearch] = useState(false);
   return (
-    <div className='App'>
-      <button onClick={()=>setIsClick(!isClick)}>Click</button>
-      <Menu isClick={isClick} onChangeState={()=>setIsClick(!isClick)}/>
-
+    <div className='App' style={{overflowY: isClickMenu ? 'hidden' : 'auto'}}>
+      <MyContext.Provider value={{setClickMenu}}>
+        <Header />
+      </MyContext.Provider>
       <div className="main-content">
-          <h1>App Content</h1>
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/daotao/dai-hoc" element={<Academics />} />
+            
             <Route path="/daotao/cao-dang" element={<Curriculum />} />
           </Routes>
-        </div>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,96 @@
+.header{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 10;
+    background: white;
+    .header-container{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 100px;
+            }
+        }
+
+        .header-left{
+            display: flex;
+            align-items: center;
+            .uni-name{
+                h1{
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: #003A63;
+                }
+            }
+        }
+
+        .header-right{
+            display: flex;
+            align-items: center;
+    
+            .search-btn{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 40px;
+                width: 40px;
+                height: 40px;
+                background: #0F52A9;
+                border-radius: 50%;
+                transition: .3s;
+                svg{
+                    width: 16px;
+                    height: 16px;
+                }
+                &:hover{
+                    width: 40px;
+                    height: 40px;
+                    background: #C3CBD1;
+                    border: 1px solid #8996A0;
+                    svg path{
+                        fill: #273E74;
+                    }
+                }
+            }
+
+            .menu-btn{
+                cursor: pointer;
+                width: 100px;
+                height: 40px;
+                background: #0F52A9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: .3s;
+                svg{
+                    margin-right: 5px;
+                }
+
+                span{
+                    color: white;
+                }
+
+                &:hover{
+                    background: #C3CBD1;
+                    border: 1px solid #8996A0;
+                    span{
+                        color: #273E74;
+                    }
+                    svg path{
+                        stroke: #273E74;
+                    }
+                }
+            }
+        }
+
+    }
+}

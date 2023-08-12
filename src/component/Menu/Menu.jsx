@@ -15,12 +15,19 @@ import Curriculum from "../Academics/Curriculum";
 
 import logo from "../../assets/logo.svg";
 import back from "../../assets/back.jpg";
+import { MyContext } from "../../MyContext";
+
+import backMenu1 from "../../assets/img/backMenu1.jpg";
+import backMenu2 from "../../assets/img/backMenu2.jpg";
+import backMenu3 from "../../assets/img/backMenu3.png";
+import backMenu4 from "../../assets/img/backMenu4.jpg";
 
 
 function Menu({isClick, onChangeState}) {
     const [pos, setPos] = useState(0)
     const [isOpen, setOpen] = useState(false)
 
+    const backMenu = [back, backMenu1, backMenu2, backMenu3, backMenu4]
     const subNav = [<AcademicsNav />, <AdmissionNav />, <ResearchNav/>, <NewsNav/>, <IntroduceNav/>]
     const items = [
         {
@@ -42,7 +49,7 @@ function Menu({isClick, onChangeState}) {
         {
             title: "Giới thiệu",
             delay: '0.3s'
-        },
+        }
     ]
     const handleClick = (index)=>{
         if(pos === index && isOpen){
@@ -54,7 +61,6 @@ function Menu({isClick, onChangeState}) {
         }
     }
     
-    console.log(pos)
     const listItem = items.map((item, index)=>{
         return (
             <li key={index.toString()} className={isClick ? 'appear' : ""} style={{transitionDelay: item.delay}}>
@@ -68,18 +74,35 @@ function Menu({isClick, onChangeState}) {
     })
 
     return (
-        <div className="menu" style={{top: isClick ? 0 : '-100%', backgroundImage: `url(${back})`}}>
+        <div className="menu" style={{top: isClick ? 0 : '-100%', backgroundImage: `url(${backMenu[pos]})`}}>
             <div className="menuHeader">
                 <div className="logo">
-                    <img src={logo} alt=""/>
-                    <h1>HCMUS VNUHCM-US</h1>
+                    <a href="/">
+                        <img src={logo} alt=""/>
+                    </a>
+                        <div className="logo-title">
+                            <h1>TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN, ĐHQG-HCM</h1>
+                            <h3>HCMUS VNUHCM-US</h3>
+                        </div>
                 </div>
-                <button onClick={onChangeState}>X</button>
+                <div className="btn-close" onClick={onChangeState}>
+                    <span>Đóng</span>
+                    <div className="icon-close">
+                        <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.3679 15.0131L24.0919 7.33126C24.4622 6.9647 24.4622 6.37126 24.0919 6.00563C23.7226 5.63907 23.1226 5.63907 22.7532 6.00563L15.0357 13.6809L7.24693 5.89126C6.87756 5.52095 6.27756 5.52095 5.90818 5.89126C5.53881 6.26251 5.53881 6.86345 5.90818 7.23376L13.6913 15.0178L5.88006 22.7859C5.51068 23.1525 5.51068 23.7459 5.88006 24.1116C6.24943 24.4781 6.84943 24.4781 7.21881 24.1116L15.0235 16.35L22.7813 24.1088C23.1507 24.4791 23.7507 24.4791 24.1201 24.1088C24.4894 23.7375 24.4894 23.1366 24.1201 22.7663L16.3679 15.0131Z" fill="white"/>
+                        </svg>
+                    </div>
+
+                </div>
+                {/* <button className="btn-close" onClick={onChangeState}>
+                </button> */}
             </div>
             <div className="menu-container">
-                <ul className="nav">
-                    {listItem}
-                </ul>
+                <div className="cc">
+                    <ul className="nav">
+                        {listItem}
+                    </ul>
+                </div>
 
                 {isOpen ? subNav[pos] : null}
 

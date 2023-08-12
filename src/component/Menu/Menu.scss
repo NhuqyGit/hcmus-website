@@ -2,8 +2,9 @@
     position: absolute;
     left: 0;
     height: 100vh;
-    width: 100vw;
-    transition: 0.5s top;
+    width: 100%;
+    z-index: 10000;
+    transition: 0.5s;
     // background: black;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,21 +27,64 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100000;
+    z-index: 10000;
     width: 100%;
+    .btn-close{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            color: white;
+            font-size: 20px;
+        }
+        .icon-close{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid #464A4F;
+            margin: 0 30px 0 15px;
+            transition: .3s;
+            
+            svg{
+                path{
+                    stroke: white;
+                    stroke-width: 2;
+                }
+            }
+        }
+        &:hover{
+            .icon-close{
+                border-color: #FFFFFF;
+            }
+        }
+    }
+
     .logo{
         display: flex;
         align-items: center;
         margin-left: 15px;
+        .logo-title{
+            margin-left: 10px;
+            h1{
+                color: white;
+                font-weight: 300;
+                font-size: 25px;
+                letter-spacing: -1px;
+            }
+            h3{
+                color: white;
+                font-weight: 100;
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+        }
         img{
             width: 100px;
             
-        }
-        h1{
-            color: white;
-            font-weight: 300;
-            font-size: 28px;
-            margin-left: 10px;
         }
     }    
     &::after{
@@ -50,9 +94,9 @@
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.6);
         z-index: -1;
-        box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.6);
     }
 }
 
@@ -62,11 +106,15 @@
     left: 0;
     top: 150px;
     z-index: 10000;
-    .nav{
+    .cc{
         flex: 30%;
+        overflow: hidden;
+        // overflow-y: scroll;
+    }
+    .nav{
         padding: 0 30px;
         list-style-type: none;
-        overflow-y: auto;
+        // overflow-y: auto;
         li{
             margin-bottom: 30px;
             opacity: 0;
@@ -241,6 +289,7 @@
                 }
             }
             svg{
+                margin-top: 1px;
                 path{
                     transition: .3s;
                 }
@@ -263,6 +312,87 @@
 .SSubNav{
     flex: 40%;
     padding: 0 30px;
+    .SSubNav-item{
+        padding: 15px 0;
+        border-top: 1px solid #464a4f;
+        opacity: 0;
+        transform: translateX(-30px);
+        transition: .3s;
+        a{
+            position: relative;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            &::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;   
+                height: 1px;
+                background: white;
+                transition: .3s;
+            }
+            &:hover{
+                &::after{
+                    width: 100% !important;
+                }
+            }
+        }
+
+    }
+    
+    .explore{
+        opacity: 0;
+        transform: translateX(-30px);
+        transition: .3s;
+        span{
+
+            color: white;
+            font-size: 18px;
+        }
+        .explore-des{
+            span{
+                margin-top: 15px;
+                display: block;
+                width: 440px;
+            }
+        }
+        .explore-title{
+            display: flex;
+            align-items: center;
+            margin: 23px 0 50px 0;
+            .explore-arrow{
+                cursor: pointer;
+                margin-right: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+                background: #464a4f;
+                transition: .3s;
+                svg path{
+                    stroke: #FFFFFF;
+                    stroke-width: 1;
+                }
+
+                &:hover{
+                    background: #273E74;
+
+                }
+            }
+        }
+    }
+
+    .subNav-appear{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    
 }
 
 
