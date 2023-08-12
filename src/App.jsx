@@ -17,7 +17,7 @@ function App() {
   // const [isClickSearch, setClickSearch] = useState(false);
   return (
     <div className='App' style={{overflowY: isClickMenu ? 'hidden' : 'auto'}}>
-      <MyContext.Provider value={{setClickMenu}}>
+      <MyContext.Provider value={{isClickMenu, setClickMenu}}>
         <Header />
       </MyContext.Provider>
       <div className="main-content">

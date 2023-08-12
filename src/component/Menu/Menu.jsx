@@ -24,6 +24,7 @@ import backMenu4 from "../../assets/img/backMenu4.jpg";
 
 
 function Menu({isClick, onChangeState}) {
+    const context = useContext(MyContext);
     const [pos, setPos] = useState(0)
     const [isOpen, setOpen] = useState(false)
 
@@ -74,7 +75,7 @@ function Menu({isClick, onChangeState}) {
     })
 
     return (
-        <div className="menu" style={{top: isClick ? 0 : '-100%', backgroundImage: `url(${backMenu[pos]})`}}>
+        <div className="menu" style={{top: isClick ? 0 : '-100%', zIndex: isClick ? 10000 : -10000, backgroundImage: `url(${backMenu[pos]})`}}>
             <div className="menuHeader">
                 <div className="logo">
                     <a href="/">

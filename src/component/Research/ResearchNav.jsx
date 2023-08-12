@@ -124,7 +124,7 @@ function ResearchNav() {
     return ( 
         <>
             <div className="SubNav">
-                <div>
+                <div className="SubNav-container">
                     <div style={{transitionDelay: '0.2s'}} className={`subNav-header ${isMount ? 'appear' : ''}`}>
                         <div className="subNav-header__container">
                             <a href='/daotao/dao-tao'>

@@ -4,10 +4,12 @@ import Menu from '../Menu/Menu';
 import './Header.scss';
 import logo from '../../assets/logo.svg';
 import Search from '../Search/Search';
+import { useNavigate } from 'react-router';
 function Header() {
     const [isClick, setIsClick] = useState(false)
     const [isSearchClick, setSearchClick] = useState(false)
     const context = useContext(MyContext);
+    const navigate = useNavigate();
 
     const handleMenuClick = ()=>{
         setIsClick(!isClick);
@@ -35,7 +37,7 @@ function Header() {
             <div className='header'>
                 <div className='header-container'>
                     <div className='header-left'>
-                        <div className='logo'>
+                        <div className='logo' onClick={()=>navigate('/')}>
                             <img src={logo} alt=''></img>
                         </div>
                         <div className='uni-name'>

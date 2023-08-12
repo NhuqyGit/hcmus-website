@@ -106,14 +106,17 @@
     left: 0;
     top: 150px;
     z-index: 10000;
+    width: 100%;
     .cc{
-        flex: 30%;
+        width: 30%;
         overflow: hidden;
         // overflow-y: scroll;
     }
     .nav{
+        width: 90%;
         padding: 0 30px;
         list-style-type: none;
+        border-right: 5px solid #464A4F;
         // overflow-y: auto;
         li{
             margin-bottom: 30px;
@@ -176,142 +179,147 @@
 
 
 .SubNav{
-    flex: 30%;
-    padding: 0 30px;
+    width: 30%;
     display: flex;
-    .subNav-header{
-        margin-bottom: 45px;
-        opacity: 0;
-        transform: translateX(-30px);
-        transition: 0.3s;
-        .subNav-header__container{
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-            margin-top: 15px;
+    .SubNav-container{
+        width: 90%;
+        padding-right: 30px;
+        border-right: 5px solid #464A4F;
+        .subNav-header{
+            margin-bottom: 45px;
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: 0.3s;
+            .subNav-header__container{
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                margin-top: 15px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-right: 15px;
+                    display: flex;
+                    align-items: center;
+                    svg{
+                        margin-left: 10px;
+                        path{
+                            transition: .3s;
+                        }
+                    }
+                    &:hover{
+                        svg{
+                            path{
+                                // fill: #FFFFFF;
+                                stroke: #FFFFFF;
+                                stroke-width: 2;
+                            }
+                        }
+                    }
+                }
+                
+                
+            }
+            span{
+                color: white;
+                font-size: 16px;
+            }
+        }
+        
+        .subNav-item{
+            margin-top: 20px;
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: 0.3s;
+    
+            
             a{
                 text-decoration: none;
                 color: white;
                 font-size: 20px;
                 font-weight: bold;
-                margin-right: 15px;
                 display: flex;
                 align-items: center;
+                transition: .3s;
+                .arrow-right{
+                    opacity: 0;
+                    transform: translateX(-10px);
+                    margin-left: 8px;
+                    transition: .3s;
+                    path{
+                        stroke: #FFFFFF;
+                        stroke-width: 1;
+                    }
+                }
+                &:hover{
+                    color: #FFFFFF !important;
+                    .arrow-right{
+                        opacity: 1;
+                        transform: translateX(0);
+                    }
+                }
+            }
+            button{
+                display: flex;
+                align-items: center;
+                background: none;
+                border: none;
+                cursor: pointer;
+                span{
+                    position: relative;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-right: 8px;
+                    transition: .3s;
+                    &:hover{
+                        color: #FFFFFF !important;
+                    }
+                    &::after{
+                        content: "";
+                        width: 0;
+                        height: 1px;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        transition: .3s;
+                        background: white;
+                    }
+                    
+                    &.active{
+                        &::after{
+                            width: 100% !important; 
+                        }
+                    }
+                }
                 svg{
-                    margin-left: 10px;
+                    margin-top: 1px;
                     path{
                         transition: .3s;
                     }
                 }
                 &:hover{
-                    svg{
-                        path{
-                            // fill: #FFFFFF;
-                            stroke: #FFFFFF;
-                            stroke-width: 2;
-                        }
+                    svg path{
+                        stroke: #FFFFFF;
+                        stroke-width: 3;
                     }
                 }
             }
-            
-            
         }
-        span{
-            color: white;
-            font-size: 16px;
-        }
-    }
     
-    .subNav-item{
-        margin-top: 20px;
-        opacity: 0;
-        transform: translateX(-30px);
-        transition: 0.3s;
-
-        
-        a{
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            transition: .3s;
-            .arrow-right{
-                opacity: 0;
-                transform: translateX(-10px);
-                margin-left: 8px;
-                transition: .3s;
-                path{
-                    stroke: #FFFFFF;
-                    stroke-width: 1;
-                }
-            }
-            &:hover{
-                color: #FFFFFF !important;
-                .arrow-right{
-                    opacity: 1;
-                    transform: translateX(0);
-                }
-            }
-        }
-        button{
-            display: flex;
-            align-items: center;
-            background: none;
-            border: none;
-            cursor: pointer;
-            span{
-                position: relative;
-                color: white;
-                font-size: 20px;
-                font-weight: bold;
-                margin-right: 8px;
-                transition: .3s;
-                &:hover{
-                    color: #FFFFFF !important;
-                }
-                &::after{
-                    content: "";
-                    width: 0;
-                    height: 1px;
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
-                    transition: .3s;
-                    background: white;
-                }
-                
-                &.active{
-                    &::after{
-                        width: 100% !important; 
-                    }
-                }
-            }
-            svg{
-                margin-top: 1px;
-                path{
-                    transition: .3s;
-                }
-            }
-            &:hover{
-                svg path{
-                    stroke: #FFFFFF;
-                    stroke-width: 3;
-                }
-            }
+        .appear{
+            opacity: 1;
+            transform: translateX(0);
         }
     }
 
-    .appear{
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 .SSubNav{
-    flex: 40%;
-    padding: 0 30px;
+    width: 40%;
+    padding-right: 30px;
     .SSubNav-item{
         padding: 15px 0;
         border-top: 1px solid #464a4f;
@@ -356,7 +364,7 @@
             span{
                 margin-top: 15px;
                 display: block;
-                width: 440px;
+                // width: 440px;
             }
         }
         .explore-title{
@@ -393,6 +401,64 @@
     }
 
     
+}
+
+@media (max-width: 1289px) {
+    .menu-container{
+        .nav{
+            .appear{
+                .btnNav{
+                    span{
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .SubNav{
+        .SubNav-container{
+            .subNav-header{
+                margin-bottom: 35px;
+                .subNav-header__container{
+                    a{
+                        font-size: 18px;
+                    }
+                }
+                span{
+                    font-size: 14px;
+                }
+            }
+            .subNav-item{
+                
+                a, button span{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .SSubNav{
+        .explore-des{
+            span{
+                font-size: 16px;
+            }
+        }
+        .explore-title{
+            margin-top: 13px !important;
+            margin-bottom: 40px !important;
+            span{
+                font-size: 16px;
+            }
+        }
+
+        .SSubNav-item{
+            padding: 10px 0;
+            a{
+                font-size: 16px;
+            }
+        }
+    }
 }
 
 

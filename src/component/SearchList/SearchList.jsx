@@ -124,7 +124,7 @@ function SearchList() {
   })
 
   return (
-    <div className="container">
+    <div className="container-list_container">
       <div className='bannerTitle'>
         <h1>TÌM KIẾM</h1>
       </div>

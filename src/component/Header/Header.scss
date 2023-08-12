@@ -15,8 +15,11 @@
         align-items: center;
         justify-content: space-between;
         .logo{
+            cursor: pointer;
             display: flex;
             align-items: center;
+            width: 100px;
+            height: 100px;
             img{
                 width: 100px;
             }

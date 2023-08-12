@@ -102,7 +102,7 @@ function Home() {
                     Giới Thiệu về Tự Nhiên</p>
                 </div>
                 <div className="items-right">
-                    <div className="action-btn-tab">
+                    <div className="action-btn-tab action">
                         <button className="btn action">Sinh Viên</button>
                     </div>
                     <div className="action-btn-tab">
@@ -116,11 +116,11 @@ function Home() {
             <div className="information-tab">
                 <div className="left-information-tab">
                 <ul>
-                    <li><button className="tab-active">Giới Thiệu</button></li>
-                    <li><button>Đào Tạo</button></li>
-                    <li><button>Nghiên Cứu</button></li>
-                    <li><button>Tham Quan</button></li>
-                    <li><button>Sự Kiện</button></li>
+                    <li className='left-tab'><button className="tab-active">Giới Thiệu</button></li>
+                    <li className='left-tab'><button>Đào Tạo</button></li>
+                    <li className='left-tab'><button>Nghiên Cứu</button></li>
+                    <li className='left-tab'><button>Tham Quan</button></li>
+                    <li className='left-tab'><button>Sự Kiện</button></li>
                 </ul>
                 </div>
                 <div className="right-information-tab">

@@ -21,10 +21,9 @@ function RelativeNew(props) {
           className={`button ${display ? "none" : ""}`}
           onClick={() => {
             setCollapse((prev) => !prev);
-            setDisplay((prev) => !prev);
           }}
         >
-          Xem thêm
+          {collapse ? "Thu gọn" : "Xem thêm"}
         </button>
       </span>
     </div>
