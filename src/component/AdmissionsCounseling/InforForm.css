@@ -44,7 +44,6 @@ label {
     display: block;
     margin-bottom: 10px;
     position: relative;
-    /* To position the icon */
     margin-top: 5px;
 }
 
@@ -67,7 +66,6 @@ textarea {
     border-radius: 4px;
     padding-left: 30px;
     box-sizing: border-box;
-    /* Move the text to the right to accommodate the icon */
 }
 
 input[type="text"],
