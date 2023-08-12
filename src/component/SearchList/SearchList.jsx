@@ -111,13 +111,15 @@ function SearchList() {
     }
   ]
 
-  const mapSearch = listSearch.map((item)=>{
+  const mapSearch = listSearch.map((item, index)=>{
     return (
-      <ContentBox
-        title={item.title}
-        content={item.content}
-        imgUrl={item.imgUrl}
-      />
+      <div key={index.toString()}>  
+        <ContentBox
+          title={item.title}
+          content={item.content}
+          imgUrl={item.imgUrl}
+        />
+      </div>
     )
   })
 

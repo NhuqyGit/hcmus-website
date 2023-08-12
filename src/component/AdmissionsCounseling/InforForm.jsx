@@ -76,7 +76,7 @@ function InforForm() {
         <span className="name">Họ và tên</span>
         <label>
           <span className="input-icon">
-            <Icofont icon="user" />
+            {/* <Icofont icon="user" /> */}
           </span>
           <input
             type="text"
@@ -114,7 +114,7 @@ function InforForm() {
         </label>
         <button className="button-send-question" type="submit">
           GỬI CÂU HỎI
-          <i class="icofont-location-arrow" style={{ marginLeft: "5px" }}></i>
+          {/* <i className="icofont-location-arrow" style={{ marginLeft: "5px" }}></i> */}
         </button>
       </form>
     </div>

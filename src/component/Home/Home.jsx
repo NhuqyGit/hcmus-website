@@ -390,7 +390,7 @@ function Home() {
                 <div className="col-event">
                 <div className="box-event">
                     <div className="img-event">
-                    <img src="../../assets/img/event-4.png" />
+                    <img src={new1} alt=''/>
                     </div>
                     <div className="time-event">
                     <div>
@@ -407,7 +407,7 @@ function Home() {
                 <div className="col-event">
                 <div className="box-event">
                     <div className="img-event">
-                    <img src="../../assets/img/event-3.png" />
+                    <img src={new1} alt='' />
                     </div>
                     <div className="time-event">
                     <div>
@@ -424,7 +424,7 @@ function Home() {
                 <div className="col-event">
                 <div className="box-event">
                     <div className="img-event">
-                    <img src="../../assets/img/event-2.png" />
+                    <img src={new1} alt='' />
                     </div>
                     <div className="time-event">
                     <div>
@@ -441,7 +441,7 @@ function Home() {
                 <div className="col-event">
                 <div className="box-event">
                     <div className="img-event">
-                    <img src="../../assets/img/event-1.png" />
+                    <img src={new1} alt='' />
                     </div>
                     <div className="time-event">
                     <div>
