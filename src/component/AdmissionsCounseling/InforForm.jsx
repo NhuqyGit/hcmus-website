@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./InforForm.css";
-import Icofont from "react-icofont";
+// import Icofont from "react-icofont";
 function InforForm() {
   const [chosenButton, setChosenButton] = useState("button1");
 
@@ -89,7 +89,7 @@ function InforForm() {
         <span className="name">Email</span>
         <label>
           <span className="input-icon">
-            <Icofont icon="email" />
+            {/* <Icofont icon="email" /> */}
           </span>
           <input
             type="email"
@@ -103,7 +103,7 @@ function InforForm() {
         <span className="name">Nội dung cần tư vấn</span>
         <label>
           <span className="input-icon">
-            <Icofont icon="question-circle" />
+            {/* <Icofont icon="question-circle" /> */}
           </span>
           <textarea
             name="question"
