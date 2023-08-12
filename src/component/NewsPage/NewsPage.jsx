@@ -2,7 +2,7 @@ import "./NewsPage.scss";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import RelativeNew from "./RelativeNew";
-import Icofont from "react-icofont";
+// import Icofont from "react-icofont";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -109,7 +109,7 @@ function NewsPage() {
       <div className="main_content">
         <div className="news">
           <div>
-            <Icofont icon="ui-calendar" className="icon" />
+            {/* <Icofont icon="ui-calendar" className="icon" /> */}
             <span className="date">July 14, 2023</span>
           </div>
           <h2>What is Lorem ispum?</h2>
@@ -167,20 +167,20 @@ function NewsPage() {
           <div className="share_icon">
             <div className="share"></div>
             <a href="">
-              <Icofont icon="instagram" className="icon" />
+              {/* <Icofont icon="instagram" className="icon" /> */}
             </a>
             <a href="">
-              <Icofont icon="twitter" className="icon" />
+              {/* <Icofont icon="twitter" className="icon" /> */}
             </a>
             <a href="">
-              <Icofont icon="facebook" className="icon" />
+              {/* <Icofont icon="facebook" className="icon" /> */}
             </a>
             <a href="">
-              <Icofont icon="youtube-play" className="icon" />
+              {/* <Icofont icon="youtube-play" className="icon" /> */}
             </a>
 
             <a href="">
-              <Icofont icon="share" className="icon" />
+              {/* <Icofont icon="share" className="icon" /> */}
             </a>
           </div>
         </div>
