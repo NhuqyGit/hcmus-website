@@ -7,3 +7,14 @@
   from = "/"
   to = "/tuyensinh"
   status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/baiviet"
+  status = 301
+
+[[redirects]]
+  from = "/"
+  to = "/timkiem"
+  query = { q = ":keyword" }
+  status = 301
