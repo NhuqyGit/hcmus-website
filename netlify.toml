@@ -1,20 +1,20 @@
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/tuyensinh"
   status = 301
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/timkiem?q=:keyword"
   status = 301
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/baiviet"
   status = 301
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/daotao/dao-tao"
   status = 301
 
