@@ -2,19 +2,3 @@
   from = "/"
   to = "/tuyensinh"
   status = 301
-
-[[redirects]]
-  from = "/"
-  to = "/timkiem?q=:keyword"
-  query = { q = ":keyword" }
-  status = 301
-
-[[redirects]]
-  from = "/"
-  to = "/baiviet"
-  status = 301
-
-[[redirects]]
-  from = "/"
-  to = "/daotao/dao-tao"
-  status = 301
