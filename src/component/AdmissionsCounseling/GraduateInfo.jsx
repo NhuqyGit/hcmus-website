@@ -1,21 +1,24 @@
 import React from "react";
 import "./GraduateInfo.css";
+import saudaihoc from "../../assets/img/saudaihoc.jpg";
+import maiyeu from "../../assets/img/maiyeuhcmus.jpg";
+
 function GraduateInfo() {
   const dataNews = [
     {
-      img: "../../src/assets/maiyeuhcmus.jpg",
+      img: maiyeu,
       title: "What is Lorem Ipsum?",
       content:
         "  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
-      img: "../../src/assets/maiyeuhcmus.jpg",
+      img: maiyeu,
       title: "What is Lorem Ipsum?",
       content:
         "  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
-      img: "../../src/assets/maiyeuhcmus.jpg",
+      img: maiyeu,
       title: "What is Lorem Ipsum?",
       content:
         "  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -43,7 +46,7 @@ function GraduateInfo() {
         <div className="news-child">
           <div className="image-container">
             <img
-              src="../../src/assets/saudaihoc.jpg"
+              src={saudaihoc}
               alt="saudaihoc"
               className="image-post-graduate"
             />
@@ -61,7 +64,7 @@ function GraduateInfo() {
           </div>
           <div className="image-left-container">
             <img
-              src="../../src/assets/maiyeuhcmus.jpg"
+              src={maiyeu}
               alt="mai yeu"
               className="image-right"
             />

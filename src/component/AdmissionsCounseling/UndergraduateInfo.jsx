@@ -6,6 +6,7 @@ import {
   AccordionItem,
 } from "react-headless-accordion";
 import "./UndergraduateInfo.css";
+import tuyensinhdaihoc from "../../assets/img/tuyensinhdaihoc.png";
 // import Icofont from "react-icofont";
 
 function UndergraduateInfo() {
@@ -104,7 +105,7 @@ function UndergraduateInfo() {
         <div className="image-frame">
           <img
             className="image"
-            src="../../src/assets/tuyensinhdaihoc.png"
+            src={tuyensinhdaihoc}
             alt="tuyensinhdaihoc"
           />
           <button className="button-send">
