@@ -6,7 +6,7 @@ import GraduateInfo from "./GraduateInfo";
 
 function AdmissionsCounseling() {
   return (
-    <div>
+    <div style={{paddingTop: '150px'}}>
       <UndergraduateInfo />
       <GraduateInfo />
       <InforForm />
