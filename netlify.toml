@@ -17,13 +17,3 @@
   from = "/"
   to = "/daotao/dao-tao"
   status = 301
-
-[[redirects]]
-  from = "/*"
-  to = "/daotao/dai-hoc"
-  status = 301
-
-[[redirects]]
-  from = "/*"
-  to = "/daotao/cao-dang"
-  status = 301
