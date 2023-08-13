@@ -215,7 +215,7 @@ function SearchList() {
                     </div>
       </div>
       <div className="top">
-        {/* <p>Có <div className='count'><span>8</span></div> kết quả được tìm thấy</p> */}
+        <p>Có <div className='count'><span>8</span></div> kết quả được tìm thấy</p>
 
         <div className="top_sort">
           <span>Sắp xếp theo: </span>
