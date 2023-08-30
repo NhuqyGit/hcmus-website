@@ -459,25 +459,6 @@ function Home() {
                       chính quy ngành Công nghệ thông tin không do Trường ĐH
                       KHTN, ĐHQG-HCM cấp thì phải.
                     </p>
-                    <div className="view-more-news">
-                      <button className="icon">
-                        <svg
-                          width="16"
-                          height="12"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M24 12.0067C24 11.8064 23.9175 11.6152 23.7803 11.4712L16.356 3.97191C16.0627 3.67566 15.588 3.67641 15.2955 3.97191C15.0022 4.26741 15.0022 4.74741 15.2955 5.04291L21.4403 11.2492H0.75C0.336 11.2492 0 11.5882 0 12.0067C0 12.4252 0.336 12.7642 0.75 12.7642H21.4395L15.2955 18.9704C15.0022 19.2659 15.003 19.7459 15.2955 20.0414C15.5887 20.3369 16.0635 20.3369 16.356 20.0414L23.7803 12.5422C23.9205 12.4004 23.9977 12.2054 24 12.0067Z"
-                            fill="#939393"
-                          />
-                        </svg>
-                      </button>
-                      <span>Khám phá bài viết</span>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -486,8 +467,10 @@ function Home() {
                   <div className="col-6-left">
                     <div className="box-news">
                       <img className="img_hov" src={new2} />
-                      <div className="content-box-news">
-                        <p>Seminar thời đại AI mới</p>
+                      <div className="content-box-news2">
+                        <p className="title-box-news">
+                          Seminar thời đại AI mới
+                        </p>
                         <div className="view-more-news">
                           <button className="icon">
                             <svg
@@ -513,8 +496,8 @@ function Home() {
                   <div className="col-6-left">
                     <div className="box-news">
                       <img className="img_hov" src={new3} />
-                      <div className="content-box-news">
-                        <p>Áp dụng AI vào IOT</p>
+                      <div className="content-box-news2">
+                        <p className="title-box-news">Áp dụng AI vào IOT</p>
                         <div className="view-more-news">
                           <button className="icon">
                             <svg
@@ -540,8 +523,10 @@ function Home() {
                   <div className="col-6-left">
                     <div className="box-news">
                       <img className="img_hov" src={new4} />
-                      <div className="content-box-news">
-                        <p>Sự thay đổi của vật chất</p>
+                      <div className="content-box-news2">
+                        <p className="title-box-news">
+                          Sự thay đổi của vật chất
+                        </p>
                         <div className="view-more-news">
                           <button className="icon">
                             <svg
@@ -567,8 +552,8 @@ function Home() {
                   <div className="col-6-left">
                     <div className="box-news">
                       <img className="img_hov" src={new5} />
-                      <div className="content-box-news">
-                        <p>Cuộc sống sinh viên</p>
+                      <div className="content-box-news2">
+                        <p className="title-box-news">Cuộc sống sinh viên</p>
                         <div className="view-more-news">
                           <button className="icon">
                             <svg
