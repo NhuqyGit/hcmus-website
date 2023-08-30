@@ -7,6 +7,7 @@ import Academics from './component/Academics/Academics';
 import Curriculum from './component/Academics/Curriculum';
 import AdmissionsCounseling from "./component/AdmissionsCounseling/AdmissionsCounseling";
 import NewsPage from './component/NewsPage/NewsPage';
+import FAQ from './component/FAQ/FAQ';
 
 
 import Header from './component/Header/Header';
@@ -16,23 +17,24 @@ function App() {
   const [isClickMenu, setClickMenu] = useState(false);
   // const [isClickSearch, setClickSearch] = useState(false);
   return (
-    <div className='App' style={{overflowY: isClickMenu ? 'hidden' : 'auto'}}>
-      <MyContext.Provider value={{isClickMenu, setClickMenu}}>
+    <div className="App" style={{ overflowY: isClickMenu ? "hidden" : "auto" }}>
+      <MyContext.Provider value={{ isClickMenu, setClickMenu }}>
         <Header />
       </MyContext.Provider>
       <div className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/daotao/dai-hoc" element={<Academics />} />
-            
-            <Route path="/daotao/cao-dang" element={<Curriculum />} />
-            <Route path="/tuyensinh" element={<AdmissionsCounseling />} />
-            <Route path="/timkiem" element={<SearchList />} />
-            <Route path="/baiviet" element={<NewsPage />} />
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/daotao/dai-hoc" element={<Academics />} />
+
+          <Route path="/daotao/cao-dang" element={<Curriculum />} />
+          <Route path="/tuyensinh" element={<AdmissionsCounseling />} />
+          <Route path="/timkiem" element={<SearchList />} />
+          <Route path="/baiviet" element={<NewsPage />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
       </div>
     </div>
-  )
+  );
 }
 
 export default App
