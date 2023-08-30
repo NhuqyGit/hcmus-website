@@ -1,0 +1,64 @@
+
+.faq-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 120px 20px;
+}
+
+.form-container {
+    width: 80%;
+    margin: 30px auto;
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.input-icon {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.name {
+    margin-bottom: 30px;
+    color: #273E74;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px 30px 8px 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-image: none !important;
+}
+
+.button-send-question {
+    background: linear-gradient(to bottom, #6ecaff, #0073b6);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
