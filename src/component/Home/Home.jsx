@@ -408,7 +408,7 @@ function Home() {
                     </p>
                     <p className="name-member">TS. Đinh Bá Tiến</p>
                     <p className="intro-text-member">
-                      Đinh Bá Tiến ( 25 tuổi), nghiên cứu sinh tiến sĩ ngành
+                      Đinh Bá Tiến ( 45 tuổi), nghiên cứu sinh tiến sĩ ngành
                       công nghệ thông tin tại ĐH Huddersfield (Anh), là một
                       trong ba nghiên cứu sinh vừa được chọn tham gia chương
                       trình nghiên cứu tại Cơ quan Không gian và vũ trụ Hoa Kỳ
