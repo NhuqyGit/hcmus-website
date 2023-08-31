@@ -23,7 +23,7 @@ function UnderGraduate() {
   return (
     <>
       {/* <Header /> */}
-      <main>
+      <main_graduate>
         <div className="slider-section">
           <div className="image-slider">
             {/* <img src={banner} /> */}
@@ -38,10 +38,10 @@ function UnderGraduate() {
               Your browser does not support the video tag.
             </video>
 
-            <p className="text-content-slider">
-              Trường Đại học Khoa học Tự nhiên,
-              <br />
-              Đại học Quốc gia Thành phố Hồ Chí Minh
+            <h3 className="text-content-slider">Tuyển sinh đại học</h3>
+            <p className="text-content-sliders">
+              Tại đây, bạn có quyền tự do nghiên cứu những gì <br /> bạn chọn và
+              khám phá những gì bạn yêu thích.
             </p>
 
             <div className="content-overlay">
@@ -83,24 +83,24 @@ function UnderGraduate() {
         </div>
         <div className="container">
           <nav className="info">
-            <p>Find the right information for you.</p>
+            <p>Tìm thông tin phù hợp cho bạn.</p>
             <ul>
               <li>
                 <a href="/counselors">
                   <img alt="Counselors Icon" src={counselor}></img>
-                  <strong>Counselors</strong>
+                  <strong>Tư vấn</strong>
                 </a>
               </li>
               <li>
                 <a href="/students">
                   <img alt="Students Icon" src={student}></img>
-                  <strong>Students</strong>
+                  <strong>Sinh viên</strong>
                 </a>
               </li>
               <li>
                 <a href="/family">
                   <img alt="Parents and Families Icon" src={family}></img>
-                  <strong> Parent & Family</strong>
+                  <strong> Phụ huynh & người thân</strong>
                 </a>
               </li>
             </ul>
@@ -108,21 +108,22 @@ function UnderGraduate() {
           <article className="component_item top in-view">
             <header>
               <h2 className="component_item top in-view" id="brown_education">
-                Where will your Brown <br></br>education take you?
+                Nền giáo dục tại HCMUS <br></br>sẽ đưa bạn đến đâu?
               </h2>
             </header>
             <p>
-              A Brown University education pushes undergraduates to be creative
-              thinkers, intellectual risk-takers and entrepreneurial
-              problem-solvers.
+              Nền giáo dục của Đại học Khoa học Tự nhiên thúc đẩy sinh viên trở
+              thành những nhà tư tưởng sáng tạo, những người chấp nhận rủi ro
+              trí tuệ và giải quyết vấn đề kinh doanh.
             </p>
             <p>
-              This distinctive approach demands much of students. As the
-              architect of your education, you are responsible for your own
-              intellectual and creative development. But you also will receive
-              support along the way from a dedicated community of faculty, staff
-              and peer mentors and have access to numerous resources across the
-              University that will help you on your path.
+              Cách tiếp cận đặc biệt này đòi hỏi nhiều sinh viên. Với tư cách là
+              kiến trúc sư cho nền giáo dục của mình, bạn chịu trách nhiệm cho
+              sự phát triển trí tuệ và sáng tạo của chính mình. Nhưng bạn cũng
+              sẽ nhận được sự hỗ trợ trong suốt quá trình từ một cộng đồng tận
+              tâm gồm các giảng viên, nhân viên và các cố vấn , đồng thời có
+              quyền truy cập vào nhiều nguồn tài nguyên trên toàn trường Đại học
+              sẽ giúp bạn trên con đường của mình.
             </p>
             <nav className="component-item">
               <ul>
@@ -134,7 +135,7 @@ function UnderGraduate() {
                     />
                   </a>
                   <a href="" className="parallelogram">
-                    <span>Explore</span>
+                    <span>Khám phá</span>
                   </a>
                 </li>
                 <li>
@@ -145,7 +146,7 @@ function UnderGraduate() {
                     />
                   </a>
                   <a href="" className="parallelogram">
-                    <span>Visit</span>
+                    <span>Tham quan</span>
                   </a>
                 </li>
                 <li>
@@ -156,7 +157,7 @@ function UnderGraduate() {
                     />
                   </a>
                   <a href="" className="parallelogram">
-                    <span>Apply</span>
+                    <span>ĐĂNG KÝ</span>
                   </a>
                 </li>
               </ul>
@@ -173,17 +174,17 @@ function UnderGraduate() {
           <article className="component_item top in-view">
             <header>
               <h2 className="component_item top in-view" id="brown_education">
-                Where will your Brown <br></br>education take you?
+                Khám phá <br></br>chương trình giảng dạy mở?
               </h2>
             </header>
 
             <p>
-              This distinctive approach demands much of students. As the
-              architect of your education, you are responsible for your own
-              intellectual and creative development. But you also will receive
-              support along the way from a dedicated community of faculty, staff
-              and peer mentors and have access to numerous resources across the
-              University that will help you on your path.
+              Tại hầu hết các trường đại học, sinh viên phải hoàn thành một loạt
+              các khóa học cốt lõi. Tại đây, chúng tôi mời bạn phát triển khóa
+              học cá nhân hóa của riêng mình. Bạn sẽ tham gia các khóa học
+              nghiêm ngặt về nhiều môn học trước khi đắm mình vào một trong hơn
+              80 chuyên ngành học thuật (bạn có thể gọi là chuyên ngành) để
+              nghiên cứu chuyên sâu và tập trung.
             </p>
 
             <div className="new-row">
@@ -192,15 +193,16 @@ function UnderGraduate() {
                 alt=""
               />
               <div className="new-content">
-                You will graduate from Brown prepared to thrive in whatever path
-                you choose, with the skills, experience and connections to stand
-                out and step up — on the job and everywhere else.
+                Bạn sẽ tốt nghiệp với sự chuẩn bị sẵn sàng để phát triển trên
+                bất kỳ con đường nào bạn chọn, với các kỹ năng, kinh nghiệm và
+                mối quan hệ để nổi bật và thăng tiến - trong công việc và ở mọi
+                nơi khác.
               </div>
             </div>
           </article>
           <footer>
             <a href="">
-              Learn more about<strong> The Open Curriculum</strong>{" "}
+              Học nhiều hơn về<strong> Chương trình mở</strong>{" "}
             </a>
           </footer>
         </div>
@@ -214,34 +216,34 @@ function UnderGraduate() {
           <article className="component_item top in-view">
             <header>
               <h2 className="component_item top in-view" id="brown_education">
-                Where will your Brown <br></br>education take you?
+                Lời hứa của HCMUS?
               </h2>
             </header>
 
             <p>
-              This distinctive approach demands much of students. As the
-              architect of your education, you are responsible for your own
-              intellectual and creative development. But you also will receive
-              support along the way from a dedicated community of faculty, staff
-              and peer mentors and have access to numerous resources across the
-              University that will help you on your path.
+              Trường cam kết cung cấp chất lượng giảng dạy cao, các khóa học
+              được thiết kế bài bản và hiện đại để đảm bảo sinh viên nhận được
+              kiến thức và kỹ năng cần thiết cho sự phát triển cá nhân và sự
+              nghiệp sau này.Hỗ trợ sinh viên trong quá trình học tập và phát
+              triển,tạo ra môi trường học tập đa dạng và tích cực, tạo điều kiện
+              cho sinh viên gặp gỡ, học hỏi và trao đổi ý kiến với nhau,cung cấp
+              các tùy chọn học bổng và hỗ trợ tài chính để giúp sinh viên giảm
+              áp lực về học phí và chi phí sinh hoạt.
             </p>
+
             <p>
-              This distinctive approach demands much of students. As the
-              architect of your education, you are responsible for your own
-              intellectual and creative development. But you also will receive
-              support along the way from a dedicated community of faculty, staff
-              and peer mentors and have access to numerous resources across the
-              University that will help you on your path.
+              Trường đảm bảo cung cấp cơ hội cho sinh viên tham gia vào các hoạt
+              động nghiên cứu và thực hành thực tế để áp dụng kiến thức được học
+              trong môi trường thực tế.
             </p>
 
             <a href="" className="parallelogram">
-              <span>LEARN ABOUT FINANCIAL AID</span>
+              <span>TÌM HIỂU VỀ HỖ TRỢ TÀI CHÍNH</span>
             </a>
           </article>
           <footer>
             <nav>
-              <h3>Connect with Brown on social</h3>
+              <h3>Tương tác với HCMUS </h3>
               <ul>
                 <li>
                   {" "}
@@ -323,12 +325,12 @@ function UnderGraduate() {
               </ul>
             </nav>
             <a href="">
-              <span>Join our contact list</span>
+              <span>Gửi mail cho chúng tôi </span>
               <img src={mail} className="img_mail" alt="" />
             </a>
           </footer>
         </div>
-      </main>
+      </main_graduate>
     </>
   );
 }
