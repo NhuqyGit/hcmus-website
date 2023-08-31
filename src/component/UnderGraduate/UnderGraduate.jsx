@@ -130,7 +130,7 @@ function UnderGraduate() {
                 <li>
                   <a href="/explore">
                     <img
-                      src="https://admission.brown.edu/sites/default/files/homepage/admissions/explore.jpg"
+                      src="https://www.ctda.hcmus.edu.vn/wp-content/uploads/2016/07/team-building-2.jpg"
                       alt=""
                     />
                   </a>
@@ -141,7 +141,7 @@ function UnderGraduate() {
                 <li>
                   <a href="/visit">
                     <img
-                      src="https://admission.brown.edu/sites/default/files/homepage/admissions/visit.jpg"
+                      src="https://www.hcmus.edu.vn/images/2020/11/18/img_6567.jpg"
                       alt=""
                     />
                   </a>
@@ -152,8 +152,9 @@ function UnderGraduate() {
                 <li>
                   <a href="/apply">
                     <img
-                      src="https://admission.brown.edu/sites/default/files/homepage/admissions/apply.jpg"
+                      src="https://reviewedu.net/wp-content/uploads/2021/08/Truong-Dai-hoc-Khoa-hoc-Tu-Nhien-Ho-Chi-Minh-HCMUS-3.jpg"
                       alt=""
+                      className="next_image"
                     />
                   </a>
                   <a href="" className="parallelogram">
@@ -166,7 +167,7 @@ function UnderGraduate() {
         </div>
         <div className="new-image">
           <img
-            src="https://admission.brown.edu/sites/default/files/homepage/admissions/open-curriculum.jpg"
+            src="https://static.vnuhcm.edu.vn/images/20210730/c328bf213d426d99c83137e0c21ac140.jpg"
             alt=""
           />
         </div>
@@ -189,7 +190,7 @@ function UnderGraduate() {
 
             <div className="new-row">
               <img
-                src="https://admission.brown.edu/sites/default/files/homepage/where-will-brown-take-you.jpg"
+                src="https://www.ctda.hcmus.edu.vn/wp-content/uploads/2015/07/sinh-vien.jpg"
                 alt=""
               />
               <div className="new-content">
@@ -208,7 +209,7 @@ function UnderGraduate() {
         </div>
         <div className="new-image2">
           <img
-            src="https://admission.brown.edu/sites/default/files/homepage/admissions/open-curriculum.jpg"
+            src="https://tuyensinh.tvu.edu.vn/uploads/news/2018_07/phongthinghiem-1-kjqu.jpg"
             alt=""
           />
         </div>
