@@ -92,7 +92,7 @@
     color: black;
   }
   .long-des {
-    max-height: 50px;
+    max-height: 40px;
     width: 280px;
     overflow: hidden;
     margin-bottom: 10px;
@@ -128,7 +128,7 @@
     color: black;
   }
   .long-des {
-    max-height: 50px;
+    max-height: 40px;
     width: 280px;
     overflow: hidden;
     margin-bottom: 10px;
