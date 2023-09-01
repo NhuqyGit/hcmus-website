@@ -1,0 +1,420 @@
+main_graduate {
+  .slider-section {
+    position: relative;
+    z-index: 0;
+    .image-slider {
+      .text-content-slider {
+        font-size: 50px;
+      }
+      .text-content-sliders {
+        position: absolute;
+        bottom: 75px;
+        left: 57px;
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 500;
+      }
+    }
+  }
+  .container {
+    height: 100%;
+    padding: 0;
+    width: 87%;
+    transform: translateY(-70px);
+    margin: auto;
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 24px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    z-index: 2;
+    .info {
+      margin: 0;
+      border-radius: 0;
+      display: flex;
+      align-items: stretch;
+      flex-direction: row;
+      height: 120px;
+      ul {
+        display: flex;
+        flex-direction: row;
+        width: calc(100% / 3 * 2.5);
+        margin: 0;
+        padding: 0;
+        align-items: stretch;
+        border-bottom: 1px solid #f8f7f5;
+        border-top: 1px solid #f8f7f5;
+        li {
+          list-style: none;
+          width: auto;
+          margin: 0;
+          padding: 0;
+          border-left: 1px solid #f8f7f5;
+          border-right: 1px solid #f8f7f5;
+          flex-grow: 1;
+          display: list-item;
+          text-align: -webkit-match-parent;
+
+          a {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            text-decoration: none;
+            border: 0;
+            color: black;
+            border-bottom: 2px solid #003a63;
+            padding: 4% 0;
+            img {
+              display: block;
+              width: 50px;
+              height: 50px;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+      p {
+        width: calc(100% / 3 * 1);
+        margin: 0;
+        background: #003a63;
+        color: white;
+        font-size: clamp(18px, 2vw, 24px);
+        padding: 24px 32px 24px 80px;
+        line-height: 1.25;
+        position: relative;
+        border-radius: 4px 4px 0 0;
+      }
+      p::before {
+        content: url(https://admission.brown.edu/sites/default/files/homepage/info.svg);
+        position: absolute;
+        left: 24px;
+        transform: scale(0.9);
+        top: 25px;
+      }
+    }
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4% 10%;
+      header {
+        h2 {
+          border-top: 1px solid white;
+          text-transform: capitalize;
+          text-align: center;
+          font-weight: bold;
+          color: black;
+          font-size: clamp(32px, 3vw, 40px);
+
+          width: 100%;
+          margin: 0px auto;
+          position: relative;
+          line-height: 1.25;
+          &::after {
+            content: url("../../assets/svg/swoosh 1.svg");
+
+            display: block;
+            animation-name: clip;
+            animation-duration: 4s;
+            box-sizing: inherit;
+            scroll-behavior: smooth;
+            margin-bottom: -20px;
+            margin-top: -20px;
+          }
+        }
+      }
+      p {
+        line-height: 1.75;
+        font-size: 21px;
+      }
+      nav {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          padding: 0;
+          margin: 40px 0 0 0;
+          gap: 8px;
+        }
+        li {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0;
+          img {
+            aspect-ratio: 3/2;
+            background: gray;
+            height: 231px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 4px;
+          }
+
+          .parallelogram {
+            padding: 16px 8px;
+            width: 80%;
+            bottom: -20px;
+            position: relative;
+            text-decoration: none;
+
+            top: -20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: inline-block;
+            background: #003a63;
+            color: white;
+            border-radius: 4px;
+
+            transform: skewX(-20deg);
+            border-bottom: none !important;
+
+            text-transform: uppercase;
+
+            font-size: 16px;
+            align-self: center;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+            span {
+              display: block;
+              transform: skewX(20deg);
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .new-image {
+    position: relative;
+    transform: translateY(-200px);
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .new_container {
+    height: 100%;
+    width: 87%;
+    padding: 0;
+    transform: translateY(-300px);
+    margin: auto;
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 24px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    z-index: 2;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2% 10%;
+      header {
+        h2 {
+          border-top: 1px solid white;
+          text-transform: capitalize;
+          text-align: center;
+          font-weight: bold;
+          color: black;
+          font-size: clamp(32px, 3vw, 40px);
+
+          width: 100%;
+          margin: 0px auto;
+          position: relative;
+          line-height: 1.25;
+          padding-top: 50px;
+          &::after {
+            content: url("../../assets/svg/swoosh 1.svg");
+
+            display: block;
+            animation-name: clip;
+            animation-duration: 4s;
+            box-sizing: inherit;
+            scroll-behavior: smooth;
+            margin-bottom: -20px;
+            margin-top: -20px;
+          }
+        }
+      }
+      p {
+        line-height: 1.75;
+        font-size: 21px;
+      }
+
+      .new-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 8%;
+        gap: 32px;
+        align-items: flex-start;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        img {
+          height: 400px;
+          background: gray;
+          aspect-ratio: 3/2;
+          border-radius: 4px;
+          object-fit: cover;
+        }
+        .new-content {
+          font-style: italic;
+          margin: 0;
+          color: blue;
+          font-size: clamp(20px, 3vw, 24px);
+          padding: 4% 0;
+          border-top: 1px solid var(--color-lgray);
+          border-bottom: 1px solid var(--color-lgray);
+          align-self: center;
+        }
+      }
+    }
+    footer {
+      background-color: #003a63;
+
+      display: flex;
+      justify-content: center;
+      padding: 40px 4%;
+
+      a {
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        display: block;
+
+        font-size: 16px;
+        line-height: 0.5;
+        text-transform: uppercase;
+        border: 0 !important;
+        strong {
+          margin-top: 20px;
+          display: block;
+          font-size: clamp(18px, 2vw, 20px);
+          position: relative;
+        }
+      }
+    }
+  }
+  .new-image2 {
+    position: relative;
+    transform: translateY(-418px);
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .next_container {
+    height: 100%;
+    width: 87%;
+    padding: 0;
+    transform: translateY(-500px);
+    margin: auto;
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 24px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    z-index: 2;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2% 10%;
+      header {
+        h2 {
+          border-top: 1px solid white;
+          text-transform: capitalize;
+          text-align: center;
+          font-weight: bold;
+          color: black;
+          font-size: clamp(32px, 3vw, 40px);
+
+          width: 100%;
+          margin: 0px auto;
+          position: relative;
+          line-height: 1.25;
+          padding-top: 50px;
+          &::after {
+            content: url("../../assets/svg/swoosh 1.svg");
+
+            display: block;
+            animation-name: clip;
+            animation-duration: 4s;
+            box-sizing: inherit;
+            scroll-behavior: smooth;
+            margin-bottom: -20px;
+            margin-top: -20px;
+          }
+        }
+      }
+      p {
+        line-height: 1.75;
+        font-size: 21px;
+        margin-bottom: 50px;
+      }
+      .parallelogram {
+        text-decoration: none;
+        padding: 16px 8px;
+        width: 30%;
+        bottom: -20px;
+        position: relative;
+
+        top: -20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        display: inline-block;
+        background: #003a63;
+        color: white;
+        border-radius: 4px;
+
+        transform: skewX(-20deg);
+        border-bottom: none !important;
+
+        text-transform: uppercase;
+
+        font-size: 16px;
+        align-self: center;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+        span {
+          display: block;
+          transform: skewX(20deg);
+          text-align: center;
+        }
+      }
+    }
+    footer {
+      background: #cfcdcd;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 4%;
+      gap: 16px;
+      flex-direction: row;
+      nav {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+        ul {
+          display: flex;
+          margin: 0;
+          gap: 8px;
+          padding: 0;
+        }
+      }
+      a {
+        text-decoration: none;
+        span {
+          border-bottom: 2px solid #003a63;
+
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

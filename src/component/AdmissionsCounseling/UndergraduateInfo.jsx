@@ -86,10 +86,10 @@ function UndergraduateInfo() {
                       }`}
                     >
                       <h3 style={{ color: "#273E74" }}>{item.title}</h3>
-                      <Icofont
+                      {/* <Icofont
                         icon="icofont-simple-down"
                         className={`arrow-icon ${open ? "open" : ""}`}
-                      />
+                      /> */}
                     </AccordionHeader>
 
                     <AccordionBody>
@@ -107,7 +107,7 @@ function UndergraduateInfo() {
           <button className="button-send">
             <span className="button-content">
               LIÊN HỆ TƯ VẤN
-              <Icofont icon="icofont-send-mail" className="icon-large" />
+              {/* <Icofont icon="icofont-send-mail" className="icon-large" /> */}
             </span>
           </button>
         </div>

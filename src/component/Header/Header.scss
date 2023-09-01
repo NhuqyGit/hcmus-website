@@ -1,5 +1,5 @@
 .header{
-    position: absolute;
+    position: fixed;
     top: 0;
     display: flex;
     align-items: center;
@@ -8,7 +8,8 @@
     z-index: 10;
     background: white;
     box-shadow: 0px -1px 33px 0px rgba(0, 0, 0, 0.11);
-
+    transition: .5s;
+    
     .header-container{
         flex: 1;
         display: flex;
@@ -39,60 +40,62 @@
 
         .header-right{
             display: flex;
-            align-items: center;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
+            z-index: 1000;
+
+            // align-items: center;
+            transition: 0.5s;
     
             .search-btn{
                 cursor: pointer;
                 display: flex;
                 align-items: center;
-                justify-content: center;
-                margin-right: 40px;
-                width: 40px;
+                justify-content: flex-start;
+                margin-bottom: 10px;
+                padding: 0 10px;
+                width: 144px;
                 height: 40px;
                 background: #0F52A9;
-                border-radius: 50%;
                 transition: .3s;
+
                 svg{
-                    width: 16px;
-                    height: 16px;
+                    margin: 0 10px 0 5px;
                 }
+
+                span{
+                    color: white;
+                    font-weight: 500;
+                }
+
                 &:hover{
-                    width: 40px;
-                    height: 40px;
-                    background: #C3CBD1;
-                    border: 1px solid #8996A0;
-                    svg path{
-                        fill: #273E74;
-                    }
+                    width: 164px;
                 }
             }
 
             .menu-btn{
                 cursor: pointer;
-                width: 100px;
+                width: 144px;
                 height: 40px;
+                margin-top: 10px;
+                padding: 0 10px;
                 background: #0F52A9;
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: flex-start;
                 transition: .3s;
                 svg{
-                    margin-right: 5px;
+                    margin-right: 10px;
                 }
 
                 span{
                     color: white;
+                    font-weight: 500;
                 }
 
                 &:hover{
-                    background: #C3CBD1;
-                    border: 1px solid #8996A0;
-                    span{
-                        color: #273E74;
-                    }
-                    svg path{
-                        stroke: #273E74;
-                    }
+                    width: 164px;
                 }
             }
         }

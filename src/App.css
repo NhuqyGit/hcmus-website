@@ -2,4 +2,21 @@
     position: relative;
     scroll-behavior: smooth;
     height: 100vh;
+    overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 5px; /* Chiều rộng của thanh cuộn */
+    background-color: #f1f1f1; /* Màu nền của thanh cuộn */
+  }
+  
+  /* Chỉnh dạng của nút cuộn (thumb) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #222222; /* Màu của nút cuộn */
+    border-radius: 5px; /* Độ cong của nút cuộn */
+  }
+  
+  /* Chỉnh dạng của track */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Màu nền của track */
+  }
