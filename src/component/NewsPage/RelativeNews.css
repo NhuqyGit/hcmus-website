@@ -63,7 +63,7 @@
 
 .news_title {
   width: 350px;
-  max-height: 28px;
+  max-height: 23px;
   overflow: hidden;
   color: black;
 }
@@ -87,7 +87,7 @@
   }
   .news_title {
     width: 270px;
-    max-height: 28px;
+    max-height: 23px;
     overflow: hidden;
     color: black;
   }
