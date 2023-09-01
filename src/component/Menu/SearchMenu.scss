@@ -1,0 +1,144 @@
+.Menu-test{
+    background: #0F52A9;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border: none;
+    z-index: 100;
+    transition: .5s;
+    transform: translateX(100%);
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    .btn-close{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 8px;
+        width: 372px;
+        .icon-close{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .3s;
+            svg{
+                width: 32px;
+                height: 32px;
+            }
+            &:hover{
+                background-color: #0000007a;
+            }
+        }
+
+    }
+
+    .menu-list{
+        transition: .7s;
+        padding: 0 50px;
+        .menu-items{
+            border-top: 2px solid rgba(255, 255, 255, 0.3);
+            .topp{
+                display: flex;
+                align-items: center;
+                .menu-title{
+                    width: 234px;
+                    padding: 10px 0;
+                    transition: .3s;
+                    span{
+                        display: inline-block;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 18px;
+                        transition: .3s;
+                    }
+    
+                    &:hover{
+                        background-color: #0000007a;
+                        span{
+                            margin-left: 15px;
+                        }
+                    }
+                }
+    
+                .btn-plus{
+                    cursor: pointer;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    padding: 9px;
+                    transition: .3s;
+                    svg{
+                        width: 20px;
+                        height: 20px;
+                        rect, line{
+                            color: white;
+                        }
+                    }
+    
+                    &:hover{
+                        background-color: #0000007a;
+                    }
+                }
+            }
+
+            .bottomm{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                overflow: hidden;
+                transition: .3s;
+                .subList-item{
+                    width: 93%;
+                    border-top: 2px solid rgba(255, 255, 255, 0.3);
+                    transition: .3s;
+                    .subItem-title{
+                        text-decoration: none;
+                        display: inline-block;
+                        padding: 10px 0;
+                        width: 100%;
+                        span{
+                            color: rgba(255, 255, 255, 0.6);
+                            font-weight: 500;
+                            font-size: 16px;
+                            transition: .3s;
+                        }
+                        &:hover{
+                            background-color: #00000070;
+                            span{
+                                color: rgba(255, 255, 255, 255);
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+    
+                }
+            }
+
+            &:nth-child(5){
+                border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            }
+        }
+
+        .close-tab{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+            border: 2px solid rgba(255, 255, 255, 0.3); 
+            span{
+                padding: 6px 0;
+                text-align: center;
+                width: 100%;
+                font-size: 15px;
+                color: white;
+                font-weight: 500;
+                transition: .3s;
+                &:hover{
+                    background: #0000007a;
+                }
+            }
+
+        }
+    }
+}

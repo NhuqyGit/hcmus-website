@@ -13,14 +13,16 @@ import FAQ from './component/FAQ/FAQ';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import SearchList from './component/SearchList/SearchList';
+import SearchMenu from './component/Menu/SearchMenu';
 function App() {
   const [isClickMenu, setClickMenu] = useState(false);
-  // const [isClickSearch, setClickSearch] = useState(false);
+
   return (
     <div className="App" style={{ overflowY: isClickMenu ? "hidden" : "auto" }}>
       <MyContext.Provider value={{ isClickMenu, setClickMenu }}>
         <Header />
       </MyContext.Provider>
+      
       <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
