@@ -1,4 +1,5 @@
 .news-container {
+  position: relative;
   max-width: 100%;
   margin: 0 auto;
   padding: 120px 20px;
@@ -43,7 +44,7 @@
 
 .beside_news {
   width: 25%;
-  top: 0;
+  top: 110px;
   display: flex;
   position: sticky;
   flex-direction: column;
@@ -120,6 +121,7 @@ li {
 }
 
 .falcuty {
+  text-decoration: none;
   padding-top: 10px;
   color: #3e3232;
 }
