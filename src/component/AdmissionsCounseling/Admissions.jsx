@@ -29,7 +29,7 @@ function Admissions() {
                         </a>
                     </li>
                     <li className="sub_nav_item">
-                        <a className="sub_nav_link " href="#">
+                        <a className="sub_nav_link " href="/tuyensinh/sau-dai-hoc">
                         <span className="sub_nav_link_label">Tuyển Sinh Sau Đại Học <i className="icofont-arrow-right"></i></span>
                         </a>
                     </li>

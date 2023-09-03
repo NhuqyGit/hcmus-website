@@ -1,16 +1,14 @@
 import "./UnderGraduate.scss";
 
-import video from "../../assets/video.mp4";
-import hcmus from "../../assets/img/hcmus1.jpg";
+import sdh from "../../assets/img/sdh.jpg";
 import student from "../../assets/svg/students 2.svg";
 import counselor from "../../assets/svg/counselors 1.svg";
 import family from "../../assets/svg/families 1.svg";
 import mail from "../../assets/svg/mail 1.svg";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useState, useEffect, useRef } from "react";
 
-function UnderGraduate() {
+function Graduate() {
   const [isPlay, setPlay] = useState(true);
   const videoRef = useRef(null);
 
@@ -27,7 +25,7 @@ function UnderGraduate() {
       <main_graduate>
         <div className="slider-section">
           <div className="image-slider">
-            <img src={hcmus} />
+            <img src={sdh} />
             {/* <video
               // controls={!isPlay} // Hide controls when video is playing
               autoPlay={true}
@@ -39,7 +37,7 @@ function UnderGraduate() {
               Your browser does not support the video tag.
             </video> */}
 
-            <h3 className="text-content-slider">Tuyển sinh đại học</h3>
+            <h3 className="text-content-slider">Tuyển sinh sau đại học</h3>
             <p className="text-content-sliders">
               Tại đây, bạn có quyền tự do nghiên cứu những gì <br /> bạn chọn và
               khám phá những gì bạn yêu thích.
@@ -337,4 +335,4 @@ function UnderGraduate() {
   );
 }
 
-export default UnderGraduate;
+export default Graduate;

@@ -15,6 +15,7 @@ import Home from './component/Home/Home';
 import SearchList from './component/SearchList/SearchList';
 import SearchMenu from './component/Menu/SearchMenu';
 import Admissions from "./component/AdmissionsCounseling/Admissions";
+import Graduate from "./component/UnderGraduate/Graduate";
 import Footer from "./component/Footer/Footer";
 
 function App() {
@@ -33,12 +34,12 @@ function App() {
           <Route path="/daotao/dai-hoc" element={<Academics />} />
 
           <Route path="/daotao/cao-dang" element={<Curriculum />} />
-          {/* <Route path="/tuyensinh" element={<AdmissionsCounseling />} /> */}
           <Route path="/timkiem" element={<SearchList />} />
           <Route path="/baiviet" element={<NewsPage />} />
           <Route path="/tuyensinh/faq" element={<FAQ />} />
           <Route path="/tuyensinh" element={<Admissions />} />
           <Route path="/tuyensinh/dai-hoc" element={<UnderGraduate />} />
+          <Route path="/tuyensinh/sau-dai-hoc" element={<Graduate />} />
         </Routes>
       </div>
 

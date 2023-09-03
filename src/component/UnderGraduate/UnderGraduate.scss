@@ -1,18 +1,33 @@
-main_graduate {
+Main_graduate {
   .slider-section {
     position: relative;
     z-index: 0;
     .image-slider {
       .text-content-slider {
         font-size: 50px;
+        z-index: 2;
       }
       .text-content-sliders {
         position: absolute;
+        z-index: 2;
         bottom: 75px;
         left: 57px;
         color: #ffffff;
         font-size: 25px;
         font-weight: 500;
+        margin-bottom: 10px;
+      }
+
+      &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0.4;
+        z-index: 1;
       }
     }
   }
@@ -28,6 +43,7 @@ main_graduate {
     box-shadow: 0 0 24px rgb(0 0 0 / 10%);
     overflow: hidden;
     z-index: 2;
+    margin-top: 5px;
     .info {
       margin: 0;
       border-radius: 0;
@@ -269,6 +285,7 @@ main_graduate {
           border-top: 1px solid var(--color-lgray);
           border-bottom: 1px solid var(--color-lgray);
           align-self: center;
+          line-height: 1.5;
         }
       }
     }
@@ -414,5 +431,18 @@ main_graduate {
         }
       }
     }
+  }
+}
+
+
+@media (max-width: 1350px) {
+  .component_item{
+    p{
+      font-size: 18px !important;
+    }
+  }
+
+  .new-content{
+    font-size: 21px !important;
   }
 }
