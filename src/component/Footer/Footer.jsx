@@ -18,8 +18,8 @@ function Footer() {
                     <div className='info-contact__container'>
                         <h4>VNUHCM - University Of Science</h4>
                         <div className='address'>
-                            <svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                <g id="Icons" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                     <g id="Rounded" transform="translate(-377.000000, -1306.000000)">
                                         <g id="Communication" transform="translate(100.000000, 1162.000000)">
                                             <g id="-Round-/-Communication-/-location_on" transform="translate(272.000000, 142.000000)">
@@ -35,8 +35,8 @@ function Footer() {
                             <span>227 Đ. Nguyễn Văn Cừ, Phường 4, Quận 5, Thành phố Hồ Chí Minh</span>
                         </div>
                         <div className='phone'>
-                            <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                <g id="Icons" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                     <g id="Rounded" transform="translate(-749.000000, -1263.000000)">
                                         <g id="Communication" transform="translate(100.000000, 1162.000000)">
                                             <g id="-Round-/-Communication-/-phone" transform="translate(646.000000, 98.000000)">
@@ -54,7 +54,7 @@ function Footer() {
                         <div className='social'>
                             <div className="facebook">
                                 <svg width="25" height="25" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12.067C0 18.033 4.51354 22.994 10.4167 24V15.333H7.29167V12H10.4167V9.333C10.4167 6.333 12.4302 4.667 15.2781 4.667C16.1802 4.667 17.1531 4.8 18.0552 4.933V8H16.4583C14.9302 8 14.5833 8.733 14.5833 9.667V12H17.9167L17.3615 15.333H14.5833V24C20.4865 22.994 25 18.034 25 12.067C25 5.43 19.375 0 12.5 0C5.625 0 0 5.43 0 12.067Z" fill="#545454"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0 12.067C0 18.033 4.51354 22.994 10.4167 24V15.333H7.29167V12H10.4167V9.333C10.4167 6.333 12.4302 4.667 15.2781 4.667C16.1802 4.667 17.1531 4.8 18.0552 4.933V8H16.4583C14.9302 8 14.5833 8.733 14.5833 9.667V12H17.9167L17.3615 15.333H14.5833V24C20.4865 22.994 25 18.034 25 12.067C25 5.43 19.375 0 12.5 0C5.625 0 0 5.43 0 12.067Z" fill="#545454"/>
                                 </svg>
                             </div>
                             <div className='youtube'>
