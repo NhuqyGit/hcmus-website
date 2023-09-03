@@ -20,7 +20,7 @@ function Menu1({onChangeState}){
                         <span>Đào Tạo</span>
                     </a>
                     <div className="btn-plus" onClick={()=>setDaoTao(!daotao)}>
-                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-square">
+                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-plus-square">
                             <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                                 {!daotao ? <line x1="12" y1="8" x2="12" y2="16"></line> : null}
                             <line x1="8" y1="12" x2="16" y2="12"></line>
@@ -50,7 +50,7 @@ function Menu1({onChangeState}){
                         <span>Tuyển Sinh</span>
                     </a>
                     <div className="btn-plus" onClick={()=>setTuyenSinh(!tuyensinh)}>
-                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-square">
+                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-plus-square">
                             <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                                 {!tuyensinh ? <line x1="12" y1="8" x2="12" y2="16"></line> : null}
                             <line x1="8" y1="12" x2="16" y2="12"></line>
@@ -74,7 +74,7 @@ function Menu1({onChangeState}){
                         <span>Nghiên Cứu</span>
                     </a>
                     <div className="btn-plus" onClick={()=>setNghienCuu(!nghiencuu)}>
-                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-square">
+                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-plus-square">
                             <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                                 {!nghiencuu ? <line x1="12" y1="8" x2="12" y2="16"></line> : null}
                             <line x1="8" y1="12" x2="16" y2="12"></line>
@@ -101,7 +101,7 @@ function Menu1({onChangeState}){
                         <span>Tin Tức</span>
                     </a>
                     <div className="btn-plus" onClick={()=>setTinTuc(!tintuc)}>
-                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-square">
+                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-plus-square">
                             <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                                 {!tintuc ? <line x1="12" y1="8" x2="12" y2="16"></line> : null}
                             <line x1="8" y1="12" x2="16" y2="12"></line>
@@ -128,7 +128,7 @@ function Menu1({onChangeState}){
                         <span>Giới Thiệu</span>
                     </a>
                     <div className="btn-plus" onClick={()=>setGioiThieu(!gioithieu)}>
-                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-square">
+                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-plus-square">
                             <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                             {!gioithieu ? <line x1="12" y1="8" x2="12" y2="16"></line> : null}
                             <line x1="8" y1="12" x2="16" y2="12"></line>
@@ -160,7 +160,7 @@ function Menu1({onChangeState}){
 
 
             <div className="close-tab" onClick={onChangeState}>
-                <span>CLOSE MENU</span>
+                <span>ĐÓNG DANH MỤC</span>
             </div>
         </div>
     );

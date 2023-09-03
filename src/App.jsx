@@ -14,10 +14,12 @@ import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import SearchList from './component/SearchList/SearchList';
 import SearchMenu from './component/Menu/SearchMenu';
+import Admissions from "./component/AdmissionsCounseling/Admissions";
 
 function App() {
   const [isClickMenu, setClickMenu] = useState(false);
-
+  console.log("App: ", isClickMenu)
+  
   return (
     <div className="App" style={{ overflowY: isClickMenu ? "hidden" : "auto" }}>
       <MyContext.Provider value={{ isClickMenu, setClickMenu }}>
@@ -30,11 +32,12 @@ function App() {
           <Route path="/daotao/dai-hoc" element={<Academics />} />
 
           <Route path="/daotao/cao-dang" element={<Curriculum />} />
-          <Route path="/tuyensinh" element={<AdmissionsCounseling />} />
+          {/* <Route path="/tuyensinh" element={<AdmissionsCounseling />} /> */}
           <Route path="/timkiem" element={<SearchList />} />
           <Route path="/baiviet" element={<NewsPage />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/tuyensinh/daihoc" element={<UnderGraduate />} />
+          <Route path="/tuyensinh/faq" element={<FAQ />} />
+          <Route path="/tuyensinh" element={<Admissions />} />
+          <Route path="/tuyensinh/dai-hoc" element={<UnderGraduate />} />
         </Routes>
       </div>
     </div>

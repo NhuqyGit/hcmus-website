@@ -1,6 +1,6 @@
 .Menu-test{
     background: #0F52A9;
-    position: absolute;
+    position: fixed;
     right: 0;
     height: 100%;
     border: none;
@@ -140,5 +140,137 @@
             }
 
         }
+    }
+
+    .search-container{
+        transition: .7s;
+        padding: 0 50px;
+
+        .input-search{
+            width: 272px;
+            border: 6px solid rgba(255, 255, 255, 0.3);
+            input{                
+                padding: 10px 13.5px;
+                font-size: 20px;
+                border-radius: 0;
+                margin: 0;
+
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+
+        .btn-search{
+            border: 6px solid rgba(255, 255, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                width: 100%;
+                text-align: center;
+                font-size: 22px;
+                font-weight: 500;
+                color: #FFFFFF;
+                padding: 10px 0;
+                background: rgba(255, 255, 255, 0.3);
+                transition: .3s;
+            }
+
+            &:hover{
+                a{
+                    background: #0000007a;
+                }
+            }
+        }
+
+        .common-title{
+            padding: 8px 0;
+            span{
+                font-size: 24px;
+                color: white;
+                font-weight: bold;
+            }
+
+        }
+        .common-list{
+            // width: 272px;
+            display: flex;
+            flex-direction: column;
+            
+            .common-listItem{
+                border-top: 2px solid rgba(255, 255, 255, 0.3);
+                .common-name{
+                    cursor: pointer;
+                    display: inline-block;
+                    padding: 8px 0;
+                    width: 100%;
+                    span{
+                        display: block;
+                        max-width: 250px;
+                        font-size: 15px;
+                        font-weight: 500;                        
+                        color: rgba(255, 255, 255, 0.6);
+                        transition: .3s;
+                    }
+    
+                }
+                &:hover{
+                    .common-name{
+                        background: #0000007a;
+                        span{
+                            margin-left: 15px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            .close-tab{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+            border: 2px solid rgba(255, 255, 255, 0.3); 
+            span{
+                padding: 6px 0;
+                text-align: center;
+                width: 100%;
+                font-size: 15px;
+                color: white;
+                font-weight: 500;
+                transition: .3s;
+                &:hover{
+                    background: #0000007a;
+                }
+            }
+
+        }
+        }
+
+        .close-tab{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+            border: 2px solid rgba(255, 255, 255, 0.3); 
+            span{
+                padding: 6px 0;
+                text-align: center;
+                width: 100%;
+                font-size: 15px;
+                color: white;
+                font-weight: 500;
+                transition: .3s;
+                &:hover{
+                    background: #0000007a;
+                }
+            }
+
+        }
+
     }
 }

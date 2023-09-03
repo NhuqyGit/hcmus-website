@@ -628,3 +628,174 @@ h3 {
 .event-infor {
   margin-bottom: 50px;
 }
+
+/* css for admission page */
+
+
+.content-overlay h1{
+  font-size: 3.5rem;
+    line-height: 1.06452;
+    color: white;
+}
+
+.admission-page .title-text{
+  margin-top: 15px;
+  font-size: 1.3rem;
+    line-height: 1.58333;
+}
+
+.admission-page .overlay-title{
+  height: 260px !important;
+}
+
+.mrg-bot-70{
+  margin-bottom: 70px;
+}
+
+.sub_nav_list {
+    border-top: 1px solid #F0F2F3;
+    list-style: none;
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+.sub_nav_item {
+    border-bottom: 1px solid #F0F2F3;
+}
+
+.sub_nav_link {
+    display: block;
+    text-decoration: none;
+    padding: 15px 0;
+    transition: .3s;
+    .sub_nav_link_label {
+        font-weight: 400;
+        color: #4E3629;
+        font-size: 18px;
+        letter-spacing: 0.0125rem;
+    }
+
+    &:hover{
+      background: #0f52a9;
+      .sub_nav_link_label{
+        color: white;
+      }
+    }
+}
+
+
+
+.content_block{
+  margin-bottom: 30px;
+}
+
+.content_block_inner{
+  padding: 0 11.25%;
+}
+
+.typography{
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.77778;
+}
+
+.flex-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.sidebar-left-sticky{
+  width: 20%;
+  margin-right: 7%;
+}
+
+.content-page-admission{
+  width: 75%;
+  border-left: 1px solid #F0F2F3;
+
+}
+
+.component_title_link{
+  text-decoration: none;
+  color: black;
+}
+
+.component_block{
+  position: relative;
+    padding: 1em;
+    margin: 40px 60px;
+    border-top: 4px solid #ffc72c;
+    border-bottom: 4px solid #ffc72c;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.stat_simple{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat_simple h4 {
+    font-weight: 700;
+    font-size: 2.25em;
+    margin: 1em 0 0.15em;
+}
+
+.stat_simple p {
+    font-size: 1.1em;
+    color: #5b5b5b;
+    margin: 0 0 1em;
+}
+
+.image-block{
+  position: relative;
+  margin: 40px 60px;
+}
+
+.image-block img{
+  width: 100%;
+}
+
+.image-block p{
+  position: absolute;
+  background: black;
+  bottom: 0px;
+  margin-bottom: 0px;
+  color: white;
+  padding: 12px 20px 11px;
+  font-size: 0.875rem;
+  line-height: 1.85714;
+
+}
+
+.component_body {
+    padding: 25px 0px 24px 0px;
+    border-top: 1px solid #F0F2F3;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 259px;
+}
+
+.peak_details_caption{
+  font-weight: 400;
+}
+
+.img-ads{
+  margin-top: 30px;
+
+}
+
+.img-ads img{
+  width: 100% !important;
+}

@@ -2,6 +2,7 @@ import React, { useContext, useState, useRef, useEffect } from "react";
 import "./SearchMenu.scss";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Menu1 from "./Menu1";
+import Search1 from '../Search/Search1';
 
 function SearchMenu({isMenuClick, isClick, setWidth, onChangeState}) {
     const childRef = useRef();
@@ -25,8 +26,7 @@ function SearchMenu({isMenuClick, isClick, setWidth, onChangeState}) {
                 </div>
             </div>
 
-            {isMenuClick ? <Menu1 onChangeState={onChangeState}/> : null}
-            {/* <Menu1 /> */}
+            {isMenuClick ? <Menu1 onChangeState={onChangeState}/> : <Search1 onChangeState={onChangeState}/>}
         </div>
     )
 }
