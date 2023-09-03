@@ -5,10 +5,11 @@
 }
 .card {
   padding: 10px;
-  background-color: #f5f5f5;
+  background-color: #e7e7e7;
   width: 320px;
   border-radius: 10px;
   height: auto;
+  transition: .3s;
 }
 
 .card:hover {
@@ -52,9 +53,12 @@
   color: #ffffff;
   border-radius: 5px;
   width: 100px;
+  border: none;
+  padding: 5px 0;
+  transition: .3s;
 }
 .card .button:hover {
-  background-color: #003a63;
+  background-color: #0F52A9;
 }
 
 .card .none {

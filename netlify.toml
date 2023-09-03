@@ -9,6 +9,16 @@
   status = 301
 
 [[redirects]]
+  from = "/"
+  to = "/tuyensinh/dai-hoc"
+  status = 301
+
+[[redirects]]
+  from = "/"
+  to = "/tuyensinh/sau-dai-hoc"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/baiviet"
   status = 301

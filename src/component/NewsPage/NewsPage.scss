@@ -101,10 +101,10 @@ li {
   border-radius: 10px;
 }
 
-.thumnail .img:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}
+// .thumnail .img:hover {
+//   transform: scale(1.1);
+//   transition: all 0.3s ease-in-out;
+// }
 
 .list_news {
   padding-top: 1px;
@@ -115,6 +115,20 @@ li {
   justify-content: space-between;
   margin-bottom: 10px;
   gap: 10px;
+  .img, .descript{
+    transition: .3s;
+  }
+
+  &:hover{
+    .thumnail .img{
+      transform: scale(1.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .descript{
+      color: #0f52a9;
+    }
+  }
 }
 
 .descript {
@@ -123,9 +137,9 @@ li {
   height: 100px;
   overflow: hidden;
 }
-.descript:hover {
-  color: blue;
-}
+// .descript:hover {
+//   color: blue;
+// }
 
 .falcuty {
   text-decoration: none;
@@ -159,10 +173,12 @@ li {
   align-items: center;
   color: #ffffff;
   border-radius: 10px;
+  border: none;
+  transition: .3s;
 }
 
 .more:hover {
-  background-color: #003a63;
+  background-color: #0f52a9;
 }
 .carousel {
   padding-top: 10px;
