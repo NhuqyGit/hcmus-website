@@ -18,12 +18,16 @@ import person1 from "../../assets/img/person-1.png";
 import person2 from "../../assets/img/person-2.png";
 import dbt from "../../assets/img/dbtien-3.png";
 import person4 from "../../assets/img/person-3.png";
-import person5 from "../../assets/img/person-4.png";
+import person5 from "../../assets/img/person-5.png";
 import new1 from "../../assets/img/news-1.png";
 import new2 from "../../assets/img/news-2.png";
 import new3 from "../../assets/img/news-3.png";
 import new4 from "../../assets/img/news-4.png";
 import new5 from "../../assets/img/news-5.png";
+import ctf from "../../assets/img/ctf.jpg";
+import hackathon from "../../assets/img/hackathon.jpg";
+import tansv from "../../assets/img/tansv.png";
+import madoc from "../../assets/img/ma_doc.png";
 
 import video from "../../assets/video.mp4";
 
@@ -31,6 +35,39 @@ import cc from "../../assets/img/cc.jpg";
 import Header from "../Header/Header";
 import { useState, useEffect, useRef } from "react";
 function Home() {
+  const [isActive, SetActive] = useState(2);
+  const listPerson = [
+    {
+      role: "PHÓ TRƯỞNG KHOA CÔNG NGHỆ THÔNG TIN",
+      name: "PGS.TS. Nguyễn Văn Vũ",
+      intro: "",
+      ava: person1
+    },
+    {
+      role: "",
+      name: "",
+      intro: "",
+      ava: person2
+    },
+    {
+      role: "PHÓ TRƯỞNG KHOA CÔNG NGHỆ THÔNG TIN",
+      name: "TS. Đinh Bá Tiến",
+      intro: "",
+      ava: dbt
+    },
+    {
+      role: "",
+      name: "",
+      intro: "",
+      ava: person4
+    },
+    {
+      role: "PHÓ TRƯỞNG KHOA CÔNG NGHỆ THÔNG TIN",
+      name: "TS. Lâm Quang Vũ",
+      intro: "",
+      ava: person5
+    },
+  ]
   const [isPlay, setPlay] = useState(true);
   const videoRef = useRef(null);
 
@@ -399,14 +436,16 @@ function Home() {
             <div className="container">
               <div className="row-member">
                 <div className="col-6-member img-center">
-                  <img src={dbtNew} />
+                  <div style={{padding: "8px 10px", background: "#0000006e"}}>
+                    <img src={listPerson[isActive].ava} />
+                  </div>
                 </div>
                 <div className="col-6-member">
                   <div className="content-for-member">
                     <p className="role-member">
-                      TRƯỞNG KHOA CÔNG NGHỆ THÔNG TIN
+                      {listPerson[isActive].role}
                     </p>
-                    <p className="name-member">TS. Đinh Bá Tiến</p>
+                    <p className="name-member">{listPerson[isActive].name}</p>
                     <p className="intro-text-member">
                       Đinh Bá Tiến ( 45 tuổi), nghiên cứu sinh tiến sĩ ngành
                       công nghệ thông tin tại ĐH Huddersfield (Anh), là một
@@ -418,19 +457,19 @@ function Home() {
                   </div>
                   <div className="nav-member">
                     <ul>
-                      <li>
+                      <li className={isActive===0 ? "active" : ""} onClick={()=>SetActive(0)}>
                         <img src={person1} />
                       </li>
-                      <li>
+                      <li className={isActive===1 ? "active" : ""} onClick={()=>SetActive(1)}>
                         <img src={person2} />
                       </li>
-                      <li className="active">
+                      <li className={isActive===2 ? "active" : ""} onClick={()=>SetActive(2)}> 
                         <img src={dbt} />
                       </li>
-                      <li>
+                      <li className={isActive===3 ? "active" : ""} onClick={()=>SetActive(3)}>
                         <img src={person4} />
                       </li>
-                      <li>
+                      <li className={isActive===4 ? "active" : ""} onClick={()=>SetActive(4)}>
                         <img src={person5} />
                       </li>
                     </ul>
@@ -611,7 +650,7 @@ function Home() {
               <div className="col-event">
                 <div className="box-event">
                   <div className="img-event">
-                    <img src={new1} alt="" />
+                    <img src={hackathon} alt="" />
                   </div>
                   <div className="time-event">
                     <div>
@@ -620,10 +659,9 @@ function Home() {
                     </div>
                   </div>
                   <div className="content-event">
-                    <p className="categories-event">TRIỂN LÃM</p>
+                    <p className="categories-event">CUỘC THI</p>
                     <p className="name-event">
-                      MindReaders : sách dành cho nghệ sĩ của Gall Wight và một
-                      số điều thú vị dành cho bạn.
+                      Cuộc thi Hackathon do tập đoàn Nhuqy tổ chức sắp diễn ra với giải thưởng cực lớn.
                     </p>
                   </div>
                 </div>
@@ -631,7 +669,7 @@ function Home() {
               <div className="col-event">
                 <div className="box-event">
                   <div className="img-event">
-                    <img src={new1} alt="" />
+                    <img src={ctf} alt="" />
                   </div>
                   <div className="time-event">
                     <div>
@@ -640,10 +678,9 @@ function Home() {
                     </div>
                   </div>
                   <div className="content-event">
-                    <p className="categories-event">THUYẾT TRÌNH</p>
+                    <p className="categories-event">CUỘC THI</p>
                     <p className="name-event">
-                      Hội thảo lập kế hoạch chăm sóc trước trực tuyến hai lần
-                      được tổ chức lần thứ V.
+                      Real World CTF (Capture The Flag), một cuộc thi về hacking và bảo mật thông tin lần thứ 5.
                     </p>
                   </div>
                 </div>
@@ -651,7 +688,7 @@ function Home() {
               <div className="col-event">
                 <div className="box-event">
                   <div className="img-event">
-                    <img src={new1} alt="" />
+                    <img src={madoc} alt="" />
                   </div>
                   <div className="time-event">
                     <div>
@@ -660,10 +697,9 @@ function Home() {
                     </div>
                   </div>
                   <div className="content-event">
-                    <p className="categories-event">HỘI THẢO</p>
+                    <p className="categories-event">TIN TỨC</p>
                     <p className="name-event">
-                      Bác sĩ lâm sàng và súng :Chương trình giảng dạy về súng và
-                      thương tích do súng gây ra.
+                      Nhóm sinh viên cử nhân tài năng của hcmus tìm ra 3 lỗ hổng cấp độ A của hệ điều hành IOS.
                     </p>
                   </div>
                 </div>

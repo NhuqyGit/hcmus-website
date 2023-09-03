@@ -370,6 +370,10 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  img{
+    width: 384px;
+    height: 363px;
+  }
 }
 
 .role-member {
@@ -397,6 +401,8 @@ h3 {
     align-items: center;
     li {
       margin: 0 10px;
+      cursor: pointer;
+      padding-left: 0;
       img {
         width: 42px;
         height: 42px;
@@ -434,7 +440,7 @@ h3 {
   font-size: 70px;
   line-height: 79px;
   text-align: center;
-  color: #189fff;
+  color: #003a63;
   position: absolute;
   bottom: 15px;
   width: 100%;
@@ -574,8 +580,25 @@ h3 {
 }
 
 .box-event {
+  cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   position: relative;
+
+  .img-event{
+    overflow: hidden;
+    img{
+      width: 289px;
+      height: 217px;
+      transition: .3s;
+    }
+  }
+  &:hover{
+    .img-event{
+      img{
+        transform: scale(1.1);
+      }
+    }
+  }
 }
 
 .img-event img {
@@ -609,11 +632,11 @@ h3 {
 .content-event {
   margin-top: 45px;
   padding-left: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .categories-event {
-  color: #3f51b5;
+  color: #0f52a9;
   font-size: 20px;
   font-weight: bolder;
   margin-bottom: 0;
@@ -801,4 +824,15 @@ h3 {
 
 .img-ads img{
   width: 100% !important;
+}
+
+@media (max-width: 1350px) {
+  .box-event{
+    .content-event{
+      margin-top: 58px;
+      .name-event{
+        margin-top: 5px;
+      }
+    }
+  }
 }

@@ -1,0 +1,101 @@
+footer{
+    margin-top: 150px;
+}
+
+.footer-container{
+    background-color: #0e0e0e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .footer-logo{
+        display: flex;
+        img{
+            height: 180px;
+        }
+        .logo-name{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                letter-spacing: 1px;
+                font-size: 56px;
+            }
+            h4{
+                font-weight: 400;
+            }
+            h1, h4{
+                color: #f3f4f4;
+            }
+        }
+    }
+
+    .info-contact{
+        padding: 40px 0;
+        .info-contact__container{
+            h4{
+                color: #f3f4f4;
+                font-size: 20px;
+            }
+            .address, .phone, .social, .copyright{
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                span{
+                    color: #8996a0;
+                    font-weight: 500;
+                    margin-left: 10px;
+                }
+            }
+
+            .copyright{
+                span{
+                    margin: 0;
+                }
+            }
+
+            .social{
+                .facebook, .youtube, .twitter{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 25px;
+                    height: 25px;
+                    transition: .3s;
+                    border-radius: 50%;
+                    margin-right: 12px;
+                    svg{
+                        path{
+                            transition: .3s;
+                            fill: #8996a0;
+                        }
+                    }    
+                }
+
+                .facebook{
+                    &:hover{
+                        background: #3b5998;
+                        svg path{
+                            fill: white;
+                        }
+                    }
+                }
+                .youtube{
+                    &:hover{
+                        background: #f00;
+                        svg path{
+                            fill: white;
+                        }
+                    }
+                }
+                .twitter{
+                    &:hover{
+                        background: white;
+                        svg path{
+                            fill: #1DA1F2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

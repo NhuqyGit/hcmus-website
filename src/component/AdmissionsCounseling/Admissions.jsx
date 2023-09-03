@@ -47,7 +47,7 @@ function Admissions() {
                     <div className="content_block">
                     <div className="content_block_inner">
                         <div className="typography">
-                            <p>Brown is renowned for its distinctive undergraduate experience rooted in its flexible yet rigorous Open Curriculum. Our campus is also home to the Warren Alpert Medical School and a wide array of master's and doctoral programs, executive education offerings and pre-college programs.</p>
+                            <p>Trường Đại học Khoa học Tự nhiên nổi tiếng với trải nghiệm đại học độc đáo của mình, được gắn với Chương trình Giảng dạy Mở linh hoạt nhưng vẫn đảm bảo sự nghiêm khắc. Ngoài ra, trường còn tự hào là nơi có một loạt các chương trình thạc sĩ và tiến sĩ, các khóa học giáo dục chuyên nghiệp và các chương trình trước đại học đa dạng.</p>
                         </div>
                     </div>
                     </div>
@@ -68,13 +68,13 @@ function Admissions() {
                     <div className="content_block">
                     <div className="content_block_inner">
                         <div className="typography">
-                            <p>Across each and every program, we actively seek students from a wide variety of backgrounds. We value the exceptional academic talent, intellectual curiosity, individual perspectives, creativity, and other defining attributes that each student uniquely contributes to our community.</p>
+                            <p>Chúng tôi luôn tích cực tìm kiếm sinh viên đến từ nhiều nguồn gốc khác nhau trong mọi chương trình. Chúng tôi trân trọng tài năng học thuật xuất sắc, sự tò mò trí tuệ, góc nhìn cá nhân, sáng tạo và các đặc điểm động viên khác mà mỗi sinh viên đóng góp độc đáo cho cộng đồng của chúng tôi.</p>
                         </div>
                     </div>
                     </div>
                     <div className="image-block">
                     <img src={hcmus} alt="" />  
-                    <p>Brown is a leading research university where the curiosity, creativity and intellectual joy of students drives academic excellence.</p>
+                    <p>Hcmus là một trường đại học nghiên cứu hàng đầu, nơi sự tò mò, sáng tạo và niềm vui trí tuệ của sinh viên thúc đẩy sự xuất sắc học thuật.</p>
                     </div>
                     <div className="component_body">
                     <div className="component_content">
@@ -90,7 +90,7 @@ function Admissions() {
                     </div>
                     <div className="component_details">
                         <div className="component_peak_details_inner">
-                        <div className="peak_details_caption">Designed to advance the careers of accomplished professionals from across the globe, executive master’s degrees are offered through the School of Professional Studies.</div>
+                        <div className="peak_details_caption">Các Chương trình đại học của Trường Đại học Khoa học Tự nhiên là những cơ hội độc đáo dành cho những bạn trẻ năng động và có trách nhiệm để trải nghiệm cuộc sống và học tập cấp đại học trên khuôn viên trường hoặc trong môi trường dựa trên vị trí.</div>
                         </div>
                     </div>
                     </div>
@@ -108,7 +108,7 @@ function Admissions() {
                     </div>
                     <div className="component_details">
                         <div className="component_peak_details_inner">
-                        <div className="peak_details_caption">Brown Pre-College Summer Programs are unique opportunities for motivated, responsible young people to experience university-level life and learning on campus or in a location-based environment.</div>
+                        <div className="peak_details_caption">Được thiết kế để thúc đẩy sự nghiệp của các chuyên gia thành công, các chương trình thạc sĩ chuyên nghiệp được cung cấp thông qua các chương trình trên toàn thế giới.</div>
                         </div>
                     </div>
                     </div>

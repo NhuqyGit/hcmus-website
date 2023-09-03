@@ -4,8 +4,9 @@ import { useState } from "react";
 
 function Search1({onChangeState}) {
     const [input, setInput] = useState("")
+    const temp = "tốt nghiệp";
     const listCommon = [
-        "Học phí của trường như thế nào?",
+        "Tốt nghiệp đại học",
         "Xét học bổng",
         "Tuyển sinh đại học ra sao ?",
         "Chương trình đào tạo",
@@ -19,7 +20,7 @@ function Search1({onChangeState}) {
     const renderCommon = listCommon.map((common, i)=>{
         return (
             <div key={i.toString()} style={i === listCommon.length - 1 ? {borderBottom: "2px solid rgba(255, 255, 255, 0.3)"} : {}} className="common-listItem">
-                <a className="common-name">
+                <a href={`/timkiem?q=${encodeURIComponent(temp)}`} className="common-name">
                     <span>{common}</span>
                 </a>
             </div>

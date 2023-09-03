@@ -15,6 +15,7 @@ import Home from './component/Home/Home';
 import SearchList from './component/SearchList/SearchList';
 import SearchMenu from './component/Menu/SearchMenu';
 import Admissions from "./component/AdmissionsCounseling/Admissions";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   const [isClickMenu, setClickMenu] = useState(false);
@@ -40,6 +41,8 @@ function App() {
           <Route path="/tuyensinh/dai-hoc" element={<UnderGraduate />} />
         </Routes>
       </div>
+
+      <Footer />
     </div>
   );
 }

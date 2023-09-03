@@ -17,97 +17,93 @@ function SearchList() {
     {
       title: (
         <>
-          THÔNG BÁO <span >{searchQuery}</span> VALLET 2023 (Dành cho sinh viên đại học)
+          Hành Trình <span>{searchQuery}</span> Tại Trường Đại Học Khoa Học Tự Nhiên: Những Kỷ Niệm Đáng Nhớ
         </>
       ),
       content: (
         <p>
-          Trường Đại học Khoa học Tự nhiên thông báo danh sách dự kiến sinh viên các. Chương trình Đề án Khoa Công nghệ Thông tin được xét cấp, Chương trình Đề án Khoa Công nghệ Thông tin{' '}
-          <span >{searchQuery}</span>
+          Cuộc hành trình <span>{searchQuery}</span> là một chặng đường đáng nhớ với nhiều kỷ niệm và học thức tích luỹ tại Trường Đại học Khoa học Tự nhiên. Bài viết này kể về những hồi ức và trải nghiệm của các sinh viên trong quá trình học tập và nghiên cứu.
         </p>
       ),
-      imgUrl: "https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+      imgUrl: "https://www.hcmus.edu.vn/images/IMG_2160.jpg"
     },
     {
       title: (
         <>
-          Thông báo kết quả dự kiến HBKK HK1/22-23 CTĐA Khoa Công nghệ Thông tin
+          Bước Ra Cửa Đại Học: Sự Hồi Hương Của Cựu Sinh Viên Khoa Học Tự Nhiên
         </>
       ),
       content: (
         <p>
-          Lễ trao <span >{searchQuery}</span> “Thắp sáng ước mơ” năm 2023 sẽ được diễn ra trong chương trình “Ngày hội Sinh viên và Doanh nghiệp - Năm 2023” vào ngày 04/6/2023 Chương trình Đề án Khoa Công nghệ Thông tin{' '}
+          Sau khi <span>{searchQuery}</span>, cựu sinh viên của Trường Đại học Khoa học Tự nhiên thường có cơ hội quay lại thăm trường và nhận xét về sự phát triển của họ. Bài viết này ghi lại câu chuyện và suy tư của những người đã đi trước.
         </p>
       ),
-      imgUrl: new3
+      imgUrl: "https://www.hcmus.edu.vn/images/IMG_2069.jpg"
     },
     {
       title: (
         <>
-          THÔNG BÁO <span >{searchQuery}</span> VALLET 2023 (Dành cho sinh viên đại học)
+          Nghiên Cứu Xuất Sắc: Những Người <span >{searchQuery}</span> Khoa Học Tự Nhiên Điều Hành Trong Lĩnh Vực Của Mình
         </>
       ),
       content: (
         <p>
-          Trường Đại học Khoa học Tự nhiên thông báo danh sách dự kiến sinh viên các. Chương trình Đề án Khoa Công nghệ Thông tin được xét cấp, chương trình Đề án Khoa Công nghệ Thông tin, Chương trình Đề án Khoa Công nghệ Thông tin{' '}
-          <span >{searchQuery}</span>
+          <span >{searchQuery}</span> từ Trường Đại học Khoa học Tự nhiên là bước đầu tiên trong sự nghiệp nghiên cứu của nhiều người. Bài viết này trình bày về những cựu sinh viên đã đạt được thành công lớn trong lĩnh vực nghiên cứu của họ.
         </p>
       ),
-      imgUrl: new4
+      imgUrl: "https://www.hcmus.edu.vn/images/IMG_2201.jpg"
     },
     {
       title: (
         <>
-          Thông báo kết quả dự kiến HBKK HK1/22-23 CTĐA Khoa Công nghệ Thông tin
+          Hòa Nhịp Với Tự Nhiên: Khoa Học Môi Trường Tại Trường Đại Học Khoa Học Tự Nhiên
         </>
       ),
       content: (
         <p>
-          Lễ trao <span >{searchQuery}</span> “Thắp sáng ước mơ” năm 2023 sẽ được diễn ra trong chương trình “Ngày hội Sinh viên và Doanh nghiệp - Năm 2023” vào ngày 04/6/2023{' '}
+          Trường Đại học Khoa học Tự nhiên thường tạo điều kiện tốt cho các nghiên cứu về môi trường và bảo vệ tự nhiên. Bài viết này tập trung vào các dự án và nghiên cứu liên quan đến môi trường của các sinh viên <span >{searchQuery}</span>.
         </p>
       ),
-      imgUrl: "https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+      imgUrl: "https://www.hcmus.edu.vn/images/IMG_2211.jpg"
     },
     {
       title: (
         <>
-          THÔNG BÁO <span >{searchQuery}</span> VALLET 2023 (Dành cho sinh viên đại học)
+          Sứ Mệnh Toàn Cầu: Sinh Viên Khoa Học Tự Nhiên Đi Nước Ngoài Sau <span >{searchQuery}</span>
         </>
       ),
       content: (
         <p>
-          Trường Đại học Khoa học Tự nhiên thông báo danh sách dự kiến sinh viên các. Chương trình Đề án Khoa Công nghệ Thông tin được xét cấp, Chương trình Đề án Khoa Công nghệ Thông tin{' '}
-          <span >{searchQuery}</span>
+          <span >{searchQuery}</span> từ Trường Đại học Khoa học Tự nhiên có thể mở ra cơ hội để các sinh viên tham gia vào các dự án và nghiên cứu quốc tế. Bài viết này phân tích những trường hợp nổi bật của các cựu sinh viên tham gia vào các sứ mệnh toàn cầu sau khi <span >{searchQuery}</span>.
         </p>
       ),
-      imgUrl: new5
+      imgUrl: "https://www.hcmus.edu.vn/images/DSC_5407.jpg"
     },
     {
       title: (
         <>
-          Thông báo kết quả dự kiến HBKK HK1/22-23 CTĐA Khoa Công nghệ Thông tin
+          Sự Khởi Đầu Mới: Câu Chuyện Của Sinh Viên <span >{searchQuery}</span> Tại Trường Đại Học Khoa Học Tự Nhiên
         </>
       ),
       content: (
         <p>
-          Lễ trao <span >{searchQuery}</span> “Thắp sáng ước mơ” năm 2023 sẽ được diễn ra trong chương trình “Ngày hội Sinh viên và Doanh nghiệp - Năm 2023” vào ngày 04/6/2023 Chương trình Đề án Khoa Công nghệ Thông tin{' '}
+          Đối với nhiều sinh viên, <span >{searchQuery}</span> đánh dấu một khởi đầu mới trong cuộc đời. Bài viết này kể về những cảm xúc và dự định của các tân cử nhân sau khi <span >{searchQuery}</span> và sẵn sàng bước vào thế giới làm việc.
         </p>
       ),
-      imgUrl: "https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+      imgUrl: "https://sdh.hcmus.edu.vn/wp-content/uploads/2020/06/le-2-650x450.jpg"
     },
     {
       title: (
         <>
-          THÔNG BÁO <span >{searchQuery}</span> VALLET 2023 (Dành cho sinh viên đại học)
+          Nghệ Thuật và Khoa Học Gặp Nhau: Cuộc Hành Trình <span >{searchQuery}</span> Tại Trường Đại Học Khoa Học Tự Nhiên
         </>
       ),
       content: (
         <p>
-          Trường Đại học Khoa học Tự nhiên thông báo danh sách dự kiến sinh viên các. Chương trình Đề án Khoa Công nghệ Thông tin được xét cấp{' '}
-          <span >{searchQuery}</span>
+          Không chỉ có khoa học, mà Trường Đại học Khoa học Tự nhiên cũng thúc đẩy sự sáng tạo và nghệ thuật. Bài viết này nói về cách mà nghệ thuật và khoa học giao nhau trong quá trình học tập và nghiên cứu tại trường.
         </p>
       ),
-      imgUrl: "https://deviet.vn/wp-content/uploads/2019/04/vuong-quoc-anh.jpg"
+      imgUrl: "https://www.hcmus.edu.vn/images/2022/06/Tot_nghiep_THS_TS_1.jpg"
     }
   ]
 
