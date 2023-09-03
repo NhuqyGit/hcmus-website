@@ -1,4 +1,6 @@
 .news-container {
+  line-height: 1.5;
+  position: relative;
   max-width: 100%;
   margin: 0 auto;
   padding: 120px 20px;
@@ -35,7 +37,13 @@
   }
 }
 
+.news-descript01 {
+  padding-top: 10px;
+}
+
 .img .image {
+  padding-top: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   width: 100%;
   height: auto;
@@ -43,11 +51,11 @@
 
 .beside_news {
   width: 25%;
-  top: 0;
+  top: 110px;
   display: flex;
   position: sticky;
   flex-direction: column;
-  gap: 60px;
+  gap: 30px;
 }
 
 .tag {
@@ -120,6 +128,7 @@ li {
 }
 
 .falcuty {
+  text-decoration: none;
   padding-top: 10px;
   color: #3e3232;
 }

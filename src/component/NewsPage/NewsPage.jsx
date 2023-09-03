@@ -24,41 +24,40 @@ const responsive = {
 const relativeNewsData = [
   {
     id: 1,
-    imageUrl:
-      "https://www.hcmus.edu.vn/images/319317955_511841637643637_6277174816278505608_n.jpg",
-    title: "Olympic tin học sinh viên Việt Nam",
+    imageUrl: "https://www.hcmus.edu.vn/images/DSC_5407.jpg",
+    title: "LỄ TRAO BẰNG TỐT NGHIỆP ĐỢT 1",
     desciption:
-      "OLP’22 có sự tham gia của 71 trường đại học, cao đẳng và học viện cả nước với 74 sinh viên dự thi khối Siêu Cup, 177 sinh viên khối Chuyên Tin, 142 sinh viên khối Không chuyên tin, 12 sinh viên khối cao đẳng, 45 sinh viên dự khối Phần mềm nguồn mở và 49 sinh viên tham dự Procon Việt Nam..",
+      "Tham dự buổi lễ có PGS.TS. Trần Lê Quan - Hiệu trưởng Nhà trường; GS. TS. Nguyễn Thị Thanh Mai – Phó Hiệu trưởng; PGS.TS. Trần Minh Triết; đại diện lãnh đạo các khoa, phòng, ban, trung tâm trực thuộc Nhà trường và đặc biệt là sự có mặt của các tân cử nhân cùng gia đình, bạn bè, người thân đến tham dự chia vui với các em.",
   },
   {
     id: 2,
     imageUrl:
-      "https://www.hcmus.edu.vn/images/319081306_605278061490343_3553982540689228564_n.jpg",
-    title: "Vòng Chung kết quốc tế World Finals 2022",
+      "https://sdh.hcmus.edu.vn/wp-content/uploads/2020/06/le-2-650x450.jpg",
+    title: "LỄ TRAO BẰNG TỐT NGHIỆP ĐỢT 2",
     desciption:
-      "Đội HCMUS-BurnedTomatoes (Lê Bảo Hiệp, Hồ Ngọc Vĩnh Phát, Nguyễn Vũ Đăng Huy – Chương trình Tiên tiến) đã xuất sắc đạt giải Vô địch kỳ thi ICPC khu vực Châu Á , giành quyền vào Vòng Chung kết quốc tế (World Finals 2022), liên tục giành giải Vô địch kỳ thi ICPC khu vực Châu Á.",
+      "Trong hai ngày 20/7 và 23/7, Trường Đại học Khoa học tự nhiên, ĐHQG-HCM đã long trọng tổ chức Lễ trao bằng tốt nghiệp Cử nhân Khoa học đợt xét tốt nghiệp năm 2022 và đợt 2 năm 2023.",
   },
   {
     id: 3,
-    imageUrl: "https://www.hcmus.edu.vn/images/IMG_2211.jpg",
-    title: "Những nỗ lực và đóng góp trong học tập",
+    imageUrl: "https://www.hcmus.edu.vn/images/2022/06/Tot_nghiep_THS_TS_1.jpg",
+    title: "LỄ TRAO BẰNG TIẾN SĨ THẠC SĨ ĐỢT 2",
     desciption:
       "Trong niềm vui ngày tốt nghiệp, Tân Tiến sĩ Mai Ngọc Xuân Đạt và Tân Thạc sĩ Nguyễn Thị Thanh đã thay mặt cho các tân Tiến sĩ, thạc sĩ phát biểu cảm nghĩ và bày tỏ lòng tri ân tới Quý Thầy Cô đã luôn tận tâm, trách nhiệm, giảng dạy, đồng hành và hỗ trợ học viên trong chặng đường học tập vừa qua.",
   },
   {
     id: 4,
     imageUrl: "https://www.hcmus.edu.vn/images/IMG_2069.jpg",
-    title: "Biểu dương nỗ lực bền bỉ và ý chí quyết tâm ",
+    title: "LỄ TRAO BẰNG CỬ NHÂN MÔI TRƯỜNG ",
     desciption:
-      "Sau 3 ngày tranh tài, với sự hướng dẫn tận tình của các huấn luyện viên cùng với tài năng, tinh thần đoàn kết, quyết tâm cao, sinh viên Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM đã thi đấu xuất sắc và đạt được những thành tích ấn tượng. Trong đó, ngôi vô địch ICPC Asia TP Hồ Chí Minh 2022 .",
+      "Vừa qua – ngày 14/05, tại Giảng đường 1, trường Đại học Khoa học Tự nhiên ĐHQG-HCM – cơ sở 1, buổi lễ trao bằng tốt nghiệp Cử nhân Môi trường khóa 2017 – 2021 đã diễn ra trong không khí hân hoan và đầy ắp những cảm xúc. Sau nghi lễ chào cờ, PGS. TS. Đào Nguyên Khôi – Trưởng Khoa Môi Trường đọc quyết định trao bằng tốt nghiệp cho sinh viên khóa tuyển 2017– 2021.",
   },
   {
     id: 5,
     imageUrl:
-      "https://www.hcmus.edu.vn/images/319317955_511841637643637_6277174816278505608_n.jpg",
-    title: "Olympic tin học sinh viên Việt Nam",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmBLMHqq7mmL6s0bVbR5nep2yNf-IDyb7XdQ&usqp=CAU",
+    title: "LỄ TỐT NGHIỆP CỬ NHÂN CNTT",
     desciption:
-      "OLP’22 có sự tham gia của 71 trường đại học, cao đẳng và học viện cả nước với 74 sinh viên dự thi khối Siêu Cup, 177 sinh viên khối Chuyên Tin, 142 sinh viên khối Không chuyên tin, 12 sinh viên khối cao đẳng, 45 sinh viên dự khối Phần mềm nguồn mở và 49 sinh viên tham dự Procon Việt Nam..",
+      "Gặp nhau năm FIT mới tròn 20, bạn vừa 18. Thời gian thấm thoắt, bốn năm vui buồn thăng trầm cùng nhau vậy mà đã vội vã qua rồi. Hy vọng rằng bạn sẽ luôn vững vàng và hạnh phúc trên con đường sắp tới.",
   },
   {
     id: 6,
@@ -130,14 +129,15 @@ function NewsPage() {
             />
           </div>
 
-          <h4> Lễ tốt nghiệp tiến sĩ</h4>
-          <p>
+          <h4 className="news-descript01"> Lễ tốt nghiệp tiến sĩ</h4>
+          <p className="news-descript01">
             Trong hai ngày 21/6 và 23/6, Trường Đại học Khoa học Tự nhiên,
             ĐHQG-HCM đã long trọng tổ chức Lễ Tốt nghiệp Tiến sĩ, Thạc sĩ năm
             2023. Đây là dịp để vinh danh hơn 300 Tân Khoa đã có những thành
             tích xuất sắc trong suốt quá trình học tập, nghiên cứu và công bố
             quốc tế.
           </p>
+
           <div className="img">
             <img
               src="https://www.hcmus.edu.vn/images/IMG_2201.jpg"
@@ -146,7 +146,7 @@ function NewsPage() {
             />
           </div>
 
-          <p>
+          <p className="news-descript01">
             Phát biểu khai mạc buổi Lễ, PGS.TS. Trần Lê Quan gửi lời chúc mừng
             các Tân Tiến sĩ, Thạc sĩ, đồng thời biểu dương nỗ lực bền bỉ và ý
             chí của các anh/chị trong suốt thời gian rèn luyện tại Trường. Trong
@@ -156,7 +156,8 @@ function NewsPage() {
             trách nhiệm, giảng dạy, đồng hành và hỗ trợ học viên trong chặng
             đường học tập vừa qua.
           </p>
-          <p>
+
+          <p className="news-descript01">
             Đặc biệt trong bối cảnh phải đối mặt với nhiều thách thức do dịch
             Covid-19, các HVCH và NCS đã biến khó khăn trở thành động lực để
             vươn lên, trở nên mạnh mẽ và đạt đến thành công ngày hôm nay. Để ghi
@@ -181,19 +182,22 @@ function NewsPage() {
             />
           </div>
 
-          <p>
+          <p className="news-descript01">
             Dù cho sau này các bạn làm việc ở bất kỳ lĩnh vực nào, bất cứ vị trí
             nào, chúng tôi luôn tin rằng với sự tự tin về giá trị bản thân,
             những suy nghĩ mạnh dạn, sáng tạo, tinh thần ham học hỏi, say mê
             nghiên cứu sẽ là hành trang vững chắc để các bạn khẳng định mình và
-            thành công trên chặng đường phía trước. Trường luôn hoan nghênh các
-            cựu sinh viên quay trở về để tiếp tục cập nhật kiến thức, nâng cao
-            trình độ ở bậc cao hơn hoặc hợp tác, bổ trợ sự nghiệp đào tạo,
-            nghiên cứu của nhà trường cũng như để thăm lại trường, Khoa và Thầy
-            Cô cũ. Chúc các bạn nhanh chóng tìm được việc làm như ý, hạnh phúc
-            và thành công.
+            thành công trên chặng đường phía trước.
           </p>
-          <p>
+          <p className="news-descript01">
+            {" "}
+            Trường luôn hoan nghênh các cựu sinh viên quay trở về để tiếp tục
+            cập nhật kiến thức, nâng cao trình độ ở bậc cao hơn hoặc hợp tác, bổ
+            trợ sự nghiệp đào tạo, nghiên cứu của nhà trường cũng như để thăm
+            lại trường, Khoa và Thầy Cô cũ. Chúc các bạn nhanh chóng tìm được
+            việc làm như ý, hạnh phúc và thành công.
+          </p>
+          <p className="news-descript01">
             Trải qua hơn 80 năm hình thành và phát triển qua nhiều giai đoạn
             lịch sử của đất nước, Trường ĐH KHTN, ĐHQG-HCM đang hướng đến tầm
             nhìn trở thành một trường đại học hàng đầu tại Việt Nam và Đông Nam
@@ -201,12 +205,16 @@ function NewsPage() {
             tri thức và kinh tế số. Danh tiếng và vị trí học thuật của Trường đã
             được khẳng định bởi những uy tín đào tạo, thành tựu nghiên cứu khoa
             học và sự thành công của nhiều thế hệ cựu sinh viên trong đa dạng
-            lĩnh vực. Trường hiện có 10 Khoa và 17 Trung tâm đào tạo, nghiên cứu
-            khoa học-chuyển giao công nghệ. Trường đào tạo các văn bằng: Tiến
-            sĩ, Thạc sĩ, Cử nhân Đại học, Hoàn chỉnh, Từ xa qua mạng, Vừa làm
-            vừa học. Hằng năm, Trường có trên 2.500 Cử nhân và gần 500 Thạc sĩ,
-            Tiến sĩ ra trường, cung cấp đội ngũ cán bộ khoa học tự nhiên cho
-            TP.HCM và các tỉnh thành trên toàn quốc.
+            lĩnh vực.
+          </p>
+          <p className="news-descript01">
+            {" "}
+            Trường hiện có 10 Khoa và 17 Trung tâm đào tạo, nghiên cứu khoa
+            học-chuyển giao công nghệ. Trường đào tạo các văn bằng: Tiến sĩ,
+            Thạc sĩ, Cử nhân Đại học, Hoàn chỉnh, Từ xa qua mạng, Vừa làm vừa
+            học. Hằng năm, Trường có trên 2.500 Cử nhân và gần 500 Thạc sĩ, Tiến
+            sĩ ra trường, cung cấp đội ngũ cán bộ khoa học tự nhiên cho TP.HCM
+            và các tỉnh thành trên toàn quốc.
           </p>
           <div className="img">
             <img
@@ -215,7 +223,7 @@ function NewsPage() {
               className="image"
             />
           </div>
-          <p>
+          <p className="news-descript01">
             Nhằm ghi nhận những nỗ lực phấn đấu của các Tân Cử nhân, Trường ĐH
             KHTN đã tuyên dương, khen thưởng cho các sinh viên đã có thành tích
             xuất sắc trong quá trình học tập, rèn luyện và tích cực tham gia các
@@ -226,7 +234,7 @@ function NewsPage() {
             suốt 4 năm học qua.
           </p>
 
-          <p>
+          <p className="news-descript01">
             Một hành trình mới dài hơn, rộng hơn đã chính thức được mở ra. Nhà
             trường thân chúc các em sẽ tiếp tục bước trên con đường mình đã chọn
             để vươn đến ước mơ nghề nghiệp bằng chính kiến thức và kỹ năng đã
