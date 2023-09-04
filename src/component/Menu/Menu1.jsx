@@ -82,7 +82,7 @@ function Menu1({onChangeState}){
                     </div>
                 </div>
 
-                <div className="bottomm" style={nghiencuu ? {height: "123px"} : {height: 0}}>
+                <div className="bottomm" style={nghiencuu ? {height: "82px"} : {height: 0}}>
                     <div className="subList-item">
                         <a href="/nghiencuu/cong-bo-KH" className="subItem-title"><span>Chuyên trang Công bố khoa học</span></a>
                     </div>
@@ -106,7 +106,7 @@ function Menu1({onChangeState}){
                     </div>
                 </div>
 
-                <div className="bottomm" style={tintuc ? {height: "123px"} : {height: 0}}>
+                <div className="bottomm" style={tintuc ? {height: "82px"} : {height: 0}}>
                     <div className="subList-item">
                         <a href="/tintuc/bai-bao-KH" className="subItem-title"><span>Bài báo khoa học</span></a>
                     </div>
