@@ -89,9 +89,6 @@ function Menu1({onChangeState}){
                     <div className="subList-item">
                         <a href="/nghiencuu/hoi-nghi-KH" className="subItem-title"><span>Hội nghị khoa học trường</span></a>
                     </div>
-                    <div className="subList-item">
-                        <a href="/nghiencuu" className="subItem-title"><span>CCCCCC</span></a>
-                    </div>
                 </div>
             </div>
 
@@ -112,9 +109,6 @@ function Menu1({onChangeState}){
                 <div className="bottomm" style={tintuc ? {height: "123px"} : {height: 0}}>
                     <div className="subList-item">
                         <a href="/tintuc/bai-bao-KH" className="subItem-title"><span>Bài báo khoa học</span></a>
-                    </div>
-                    <div className="subList-item">
-                        <a href="/" className="subItem-title"><span>CCCCCC</span></a>
                     </div>
                     <div className="subList-item">
                         <a href="/tintuc/tap-chi" className="subItem-title"><span>Tạp chí</span></a>
