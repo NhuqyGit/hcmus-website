@@ -80,7 +80,7 @@ function Admissions() {
                     <div className="component_content">
                         <div className="component_content_group">
                         <h3 className="component_title">
-                            <a className="component_title_link" href="#">Tuyển Sinh Đại Học
+                            <a className="component_title_link" href="/tuyensinh/dai-hoc">Tuyển Sinh Đại Học
                             <span className="quick_nav_link_icon">
                                 <span className="quick_nav_link_icon_default"><i className="icofont-arrow-right"></i></span>
                             </span>
@@ -98,7 +98,7 @@ function Admissions() {
                     <div className="component_content">
                         <div className="component_content_group">
                         <h3 className="component_title">
-                            <a className="component_title_link" href="#">Tuyển Sinh Sau Đại Học
+                            <a className="component_title_link" href="/tuyensinh/sau-dai-hoc">Tuyển Sinh Sau Đại Học
                             <span className="quick_nav_link_icon">
                                 <span className="quick_nav_link_icon_default"><i className="icofont-arrow-right"></i></span>
                             </span>
@@ -109,6 +109,25 @@ function Admissions() {
                     <div className="component_details">
                         <div className="component_peak_details_inner">
                         <div className="peak_details_caption">Được thiết kế để thúc đẩy sự nghiệp của các chuyên gia thành công, các chương trình thạc sĩ chuyên nghiệp được cung cấp thông qua các chương trình trên toàn thế giới.</div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div className="component_body">
+                    <div className="component_content">
+                        <div className="component_content_group">
+                        <h3 className="component_title">
+                            <a className="component_title_link" href="/tuyensinh/faq">FAQ/Contact Us
+                            <span className="quick_nav_link_icon">
+                                <span className="quick_nav_link_icon_default"><i className="icofont-arrow-right"></i></span>
+                            </span>
+                            </a>
+                        </h3>
+                        </div>
+                    </div>
+                    <div className="component_details">
+                        <div className="component_peak_details_inner">
+                        <div className="peak_details_caption">Nơi trả lời những câu hỏi thắc mắc của bạn về HCMUS và đừng ngần ngại mà hãy gửi cho chúng tôi những câu hỏi của bạn.</div>
                         </div>
                     </div>
                     </div>

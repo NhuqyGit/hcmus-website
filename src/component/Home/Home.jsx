@@ -40,31 +40,31 @@ function Home() {
     {
       role: "PHÓ TRƯỞNG KHOA CÔNG NGHỆ THÔNG TIN",
       name: "PGS.TS. Nguyễn Văn Vũ",
-      intro: "",
+      intro: "Nguyễn Văn Vũ ( 45 tuổi), nghiên cứu sinh tiến sĩ ngành công nghệ thông tin tại ĐH Huddersfield (Anh), là một trong ba nghiên cứu sinh vừa được chọn tham gia chương trình nghiên cứu tại Cơ quan Không gian và vũ trụ Hoa Kỳ (NASA), sau một kỳ sát hạch đầy căng thẳng với hàng trăm ứng viên.",
       ava: person1
     },
     {
       role: "",
       name: "",
-      intro: "",
+      intro: "Đinh Bá Tiến ( 45 tuổi), nghiên cứu sinh tiến sĩ ngành công nghệ thông tin tại ĐH Huddersfield (Anh), là một trong ba nghiên cứu sinh vừa được chọn tham gia chương trình nghiên cứu tại Cơ quan Không gian và vũ trụ Hoa Kỳ (NASA), sau một kỳ sát hạch đầy căng thẳng với hàng trăm ứng viên.",
       ava: person2
     },
     {
       role: "PHÓ TRƯỞNG KHOA CÔNG NGHỆ THÔNG TIN",
       name: "TS. Đinh Bá Tiến",
-      intro: "",
+      intro: "Đinh Bá Tiến ( 45 tuổi), nghiên cứu sinh tiến sĩ ngành công nghệ thông tin tại ĐH Huddersfield (Anh), là một trong ba nghiên cứu sinh vừa được chọn tham gia chương trình nghiên cứu tại Cơ quan Không gian và vũ trụ Hoa Kỳ (NASA), sau một kỳ sát hạch đầy căng thẳng với hàng trăm ứng viên.",
       ava: dbt
     },
     {
       role: "",
       name: "",
-      intro: "",
+      intro: "Đinh Bá Tiến ( 45 tuổi), nghiên cứu sinh tiến sĩ ngành công nghệ thông tin tại ĐH Huddersfield (Anh), là một trong ba nghiên cứu sinh vừa được chọn tham gia chương trình nghiên cứu tại Cơ quan Không gian và vũ trụ Hoa Kỳ (NASA), sau một kỳ sát hạch đầy căng thẳng với hàng trăm ứng viên.",
       ava: person4
     },
     {
       role: "PHÓ TRƯỞNG KHOA CÔNG NGHỆ THÔNG TIN",
       name: "TS. Lâm Quang Vũ",
-      intro: "",
+      intro: "Lâm Quang Vũ ( 45 tuổi), nghiên cứu sinh tiến sĩ ngành công nghệ thông tin tại ĐH Huddersfield (Anh), là một trong ba nghiên cứu sinh vừa được chọn tham gia chương trình nghiên cứu tại Cơ quan Không gian và vũ trụ Hoa Kỳ (NASA), sau một kỳ sát hạch đầy căng thẳng với hàng trăm ứng viên.",
       ava: person5
     },
   ]
@@ -447,12 +447,7 @@ function Home() {
                     </p>
                     <p className="name-member">{listPerson[isActive].name}</p>
                     <p className="intro-text-member">
-                      Đinh Bá Tiến ( 45 tuổi), nghiên cứu sinh tiến sĩ ngành
-                      công nghệ thông tin tại ĐH Huddersfield (Anh), là một
-                      trong ba nghiên cứu sinh vừa được chọn tham gia chương
-                      trình nghiên cứu tại Cơ quan Không gian và vũ trụ Hoa Kỳ
-                      (NASA), sau một kỳ sát hạch đầy căng thẳng với hàng trăm
-                      ứng viên.
+                      {listPerson[isActive].intro}
                     </p>
                   </div>
                   <div className="nav-member">
