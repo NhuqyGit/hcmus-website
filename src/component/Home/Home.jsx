@@ -29,7 +29,7 @@ import hackathon from "../../assets/img/hackathon.jpg";
 import tansv from "../../assets/img/tansv.png";
 import madoc from "../../assets/img/ma_doc.png";
 
-import video from "../../assets/video.mp4";
+import video from "../../assets/hcmusIntro.mp4";
 
 import cc from "../../assets/img/cc.jpg";
 import Header from "../Header/Header";
