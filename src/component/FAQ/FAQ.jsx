@@ -7,12 +7,37 @@ function FAQ() {
     email: "",
     question: "",
   });
+  const [isMount, setMount] = useState(null)
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    if(formData.email === "" || formData.name === "" || formData.question === ""){
+      setMount(false)
+    }
+    else{
+      setMount(true)
+    }
+    setFormData({name: "", email: "", question: ""})
     console.log(formData);
   };
+
+  function getContent(isTrue) {
+    if (isTrue !== null) {
+      if(isTrue === false)
+        return (
+          <div className="thongbao">
+            <span>Vui lòng nhập đầy đủ thông tin</span>;
+          </div>
+        )
+      else {
+        return (
+          <div className="thongbao">
+            <span>Gửi thành công</span>;
+          </div>
+        )
+      }
+    }
+  }
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -186,6 +211,9 @@ Năm 2023 kỳ thi ĐGNL được tổ chức 2 đợt thi là 26/3/2023 và 28/
       <h2 style={{ marginTop: "50px", marginLeft: "135px" }}>
         LIÊN HỆ VỚI CHÚNG TÔI
       </h2>
+      
+      {getContent(isMount)}
+      
       <form className="form-container" onSubmit={handleSubmit}>
         <div className="row">
           <div className="col text-left">
@@ -231,6 +259,7 @@ Năm 2023 kỳ thi ĐGNL được tổ chức 2 đợt thi là 26/3/2023 và 28/
           {/* <i className="icofont-location-arrow" style={{ marginLeft: "5px" }}></i> */}
         </button>
       </form>
+
     </div>
   );
 }

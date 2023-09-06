@@ -217,6 +217,14 @@
   border-top: 1px solid #8996A0;
   padding: 1rem 0;
   text-decoration: none;
+  h3{
+    transition: .3s;
+  }
+  &:hover{
+    h3{
+      color:#0b3a77;
+    }
+  }
 }
 
 .content_box_top{
